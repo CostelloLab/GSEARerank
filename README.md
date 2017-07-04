@@ -6,9 +6,9 @@ University of Colorado Anschutz Medical Campus
 
 ### Scripts
 
-#### R/00-queryGEO.R
+#### R/00-queryGEO.R (possibly deprecated, see notes below)
 
-Queries GEO for all human gene expression studies that have .CEL files available. Saves a table of the studies and their descriptions to `RData/full_human_expression_GEO.rds`.
+Queries GEO for all human gene expression studies that have .CEL files available. Saves a table of the studies and their descriptions to `RData/full_human_expression_GEO.rds`. NOTE: The `GEOmetadb` package seems to have trouble connecting to the GEO database now. Rani has a local copy of the database downloaded previously (5 GB) that was used to generate `RData/full_human_expression_GEO.rds`. The analysis can be started with the `R/01-annotateStudies.R` script.
 
 #### R/01-annotateStudies.R
 
