@@ -8,11 +8,11 @@ all.studies.tab = read.table('Data/GEO/human_GPL570_n6_toAnnotate_completed.txt'
 all.studies.tab = all.studies.tab[all.studies.tab$keep == 'TRUE',]
 all.studies = unique(all.studies.tab$gse)
 
-if (!dir.exists('Data/GEO/Expression_Matrices')){ dir.create('Data/GEO/Expression_Matrices', recursive = T)}
+if (!dir.exists('RData/GEO_Expression_Matrices')){ dir.create('RData/GEO_Expression_Matrices', recursive = T)}
 
 for (study in all.studies){
   
-  out.filename = paste0('Data/GEO/Expression_Matrices/', study, '_expression_matrix.rds')
+  out.filename = paste0('RData/GEO_Expression_Matrices/', study, '_expression_matrix.rds')
   if (file.exists(out.filename)){
     cat('Expression matrix already exists for', study, '\n')
     next
