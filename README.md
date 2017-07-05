@@ -19,3 +19,7 @@ Studies were manually annotated and saved in `Data/GEO/human_GPL570_n6_toAnnotat
 #### R/02-downloadStudies.R
 
 For each of the annotated studies in `Data/GEO/human_GPL570_n6_toAnnotate_completed.txt`, this script downloads the CEL files from GEO. A directory for each study is created inside `Data/GEO/` and the CEL files are downloaded and unzipped.
+
+#### R/02b-expressionMatrices.R
+
+Compiles the set of CEL files from each experiment and extracts them into a single expression matrix saves in `Data/GEO/Expression_Matrices`.
