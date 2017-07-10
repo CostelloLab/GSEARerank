@@ -1,0 +1,20 @@
+producer_class	xtools.gsea.GseaPreranked
+producer_timestamp	1499462423586
+param	scoring_scheme	weighted
+param	norm	meandiv
+param	make_sets	true
+param	gui	false
+param	set_max	500
+param	rnd_seed	timestamp
+param	rpt_label	my_analysis
+param	gmx	E:\Documents\Costello_Lab_Rotation\GSEA_MetaAnalysis\gene_sets\good\all.gmt
+param	out	C:\Users\Harrison\Google Drive\Costello Lab\Code\RerankingImplementation\jul07
+param	help	false
+param	zip_report	false
+param	create_svgs	false
+param	set_min	15
+param	nperm	1000
+param	rnk	E:\Documents\Costello_Lab_Rotation\GSEA_MetaAnalysis\Data\rnks\GSE4773_DEG_Expt1_Control_vs_Group1_gene.rnk
+param	plot_top_x	20
+
+file	C:\Users\Harrison\Google Drive\Costello Lab\Code\RerankingImplementation\jul07\my_analysis.GseaPreranked.1499462423586\index.html
