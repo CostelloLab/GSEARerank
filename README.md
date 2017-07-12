@@ -23,3 +23,11 @@ For each of the annotated studies in `Data/GEO/human_GPL570_n6_toAnnotate_comple
 #### R/02b-expressionMatrices.R
 
 Compiles the set of CEL files from each experiment and extracts them into a single expression matrix saves in `Data/GEO/Expression_Matrices`.
+
+#### R/03-differentialExpression.R
+
+Creates a ranked differentially expression gene list for each treated-vs-control comparison in each study. Saves the .rnk files to `Results/Tables/DEG_lists/rnk/`.
+
+#### R/04-convert_gsea_xls_to_txt.R
+
+Once GSEA has been performed on all of the ranked lists from the previous step, this script converts all of the xls files produced by GSEA into txt files to `Results/GSEA_DSigDB/txt/`. Also saves a final Comparison_Key.txt describing the studies.
