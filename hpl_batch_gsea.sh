@@ -1,4 +1,4 @@
-my_dir=E:/Documents/Costello_Lab_Rotation/GSEA_MetaAnalysis;
+my_dir=~/;
 
 #####################################
 # Set simple variables. These can mostly be left alone.
