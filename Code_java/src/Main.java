@@ -2,10 +2,24 @@ import edu.mit.broad.genome.Conf;
 import xtools.api.AbstractTool;
 import xtools.gsea.GseaPreranked;
 
+import java.util.Map;
+
+import costello.rerank.RerankFileParser;
+
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		RerankFileParser parser = new RerankFileParser("GSEA_input_files/gsea_rerank_sample_input_file.txt");
+		Map<String, String> params = parser.ReadFile();
+		
+		for (String name: params.keySet()){
+
+            String key =name.toString();
+            String value = params.get(name).toString();  
+            System.out.println(key + ", " + value); 
+		}
+		
+		
 		GseaPreranked tool = new GseaPreranked(args);
         tool_main(tool);
 	}

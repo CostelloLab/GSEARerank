@@ -26,6 +26,9 @@ public class GeneSetGenerators {
     private GeneSetGenerators() {
     }
 
+    // HPL: I believe this is the function I need to edit or modify.
+    //		It appears to generate the random permutations that the p-values are calculated with.
+    //		
     public static GeneSet[] createRandomGeneSetsFixedSize(final int numRndGeneSets,
                                                           final RankedList rl,
                                                           final GeneSet gset,

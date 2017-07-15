@@ -1,0 +1,7 @@
+organism,human
+tissue,ovary
+drug,calcitriol
+platform,GPL91
+cell line,OVCAR3
+dose,0.1
+cell type,epithelial
