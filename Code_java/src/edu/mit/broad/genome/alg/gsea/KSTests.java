@@ -284,7 +284,19 @@ public class KSTests {
             //log.debug("started gsets");
             Vector rndEss;
             if (nperm > 0) {
-                final GeneSet[] rndgsets = GeneSetGenerators.createRandomGeneSetsFixedSize(nperm, rlReal, gsetsReal[g], rst);
+            	
+            	// <HPL>
+            	String type_perm = "random";
+            	GeneSet[] rndgsets = new GeneSet[nperm];
+            	
+            	if (type_perm.equals("random")) {
+            		rndgsets = GeneSetGenerators.createRandomGeneSetsFixedSize(nperm, rlReal, gsetsReal[g], rst);
+            	}
+            	else if (type_perm.equals("distribution")) {
+            		rndgsets = GeneSetGenerators.createGeneSetsFromDistributionFixedSize(nperm, rlReal, gsetsReal[g], rst);
+            	}
+            	// <HPL>
+            	
                 final GeneSetCohort gcohRnd = gcohReal.clone(rndgsets, false);
                 rndEss = new Vector(rndgsets.length);
                 final EnrichmentScore[] rnds = core.calculateKSScore(gcohRnd, false); // never store deep for rnds

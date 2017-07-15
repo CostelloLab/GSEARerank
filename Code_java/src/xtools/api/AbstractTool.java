@@ -157,7 +157,7 @@ public abstract class AbstractTool implements Tool {
             }
         }
 
-        //System.out.println(">>>> prp: " + prp + " " + fHelpMode + " val>>" + prp.getProperty("help"));
+        System.out.println(">>>> prp: " + prp + " " + fHelpMode + " val>>" + prp.getProperty("help"));
 
         if (isHelpMode()) {
             // no filling nor checking

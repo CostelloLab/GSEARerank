@@ -8,6 +8,8 @@ import edu.mit.broad.genome.XLogger;
 import edu.mit.broad.genome.math.*;
 import edu.mit.broad.genome.objects.*;
 
+import edu.mit.broad.genome.parsers.ParserFactory.readRankedList;
+
 import org.apache.log4j.Logger;
 
 import java.util.*;
@@ -65,6 +67,47 @@ public class GeneSetGenerators {
 
         return rndgsets;
     }
+    
+    // <HPL>
+    public static GeneSet[] createGeneSetsFromDistributionFixedSize(final int numDistGeneSets,
+            														final RankedList rl,
+														            final GeneSet gset,
+														            final RandomSeedGenerator rst) {
+
+    	String prefix = NamingConventions.removeExtension(gset);
+		
+		// Qualify as all members may not be in the dataset
+		int nmembers = gset.getNumMembers(rl);
+		
+		GeneSet[] distgsets = new GeneSet[numDistGeneSets];
+		
+		// HPL: Use this to get random ranked lists from distribution
+		for (int g = 0; g < numDistGeneSets; g++) {
+		
+			// IMP random from 0 to nrows not nmembers. duh!.
+			int[] randomrowindices = XMath.randomlySampleWithoutReplacement(nmembers, rl.getSize(), rst);
+		
+			
+			if (randomrowindices.length != nmembers) {
+				throw new IllegalStateException("random indices generated: " + randomrowindices.length + " not equal to # members: " + nmembers);
+			}
+		
+			Set members = new HashSet();
+		
+			for (int i = 0; i < nmembers; i++) {
+				members.add(rl.getRankName(randomrowindices[i]));
+			}
+		
+			if (members.size() != nmembers) {
+				klog.warn("Bad randomization -- repeated rnd members were made members: " + members.size() + " but wanted: " + nmembers);
+			}
+		
+			distgsets[g] = new FSet(prefix + "_" + g, members);
+		}
+		
+		return distgsets;
+	}
+    //<HPL>
 
     public static GeneSet[] removeGeneSetsSmallerThan(final GeneSet[] gsets, final int cutoff) {
 
