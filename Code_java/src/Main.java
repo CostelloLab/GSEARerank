@@ -14,9 +14,8 @@ public class Main {
 		
 		for (String name: params.keySet()){
 
-            String key =name.toString();
-            String value = params.get(name).toString();  
-            System.out.println(key + ", " + value); 
+            String value = params.get(name);
+            System.out.println(name + ", " + value);
 		}
 		
 		
@@ -46,8 +45,6 @@ public class Main {
 
         if (tool.getParamSet().getGuiParam().isFalse()) {
             Conf.exitSystem(was_error);
-        } else {
-            // dont exit!!
         }
     }
 

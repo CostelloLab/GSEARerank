@@ -8,7 +8,7 @@ import edu.mit.broad.genome.XLogger;
 import edu.mit.broad.genome.math.*;
 import edu.mit.broad.genome.objects.*;
 
-import edu.mit.broad.genome.parsers.ParserFactory.readRankedList;
+import edu.mit.broad.genome.parsers.ParserFactory;
 
 import org.apache.log4j.Logger;
 
