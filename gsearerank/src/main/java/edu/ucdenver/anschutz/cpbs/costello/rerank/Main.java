@@ -16,18 +16,18 @@ import java.util.stream.Stream;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-		Reader in = new FileReader("GSEA_input_files/gsea_rerank_sample_input_file.txt");
-        Iterable<CSVRecord> exp_vars = CSVFormat.EXCEL.parse(in);
+		Reader in = new FileReader("Input/gsea_rerank_sample_input_file.txt");
+        Iterable<CSVRecord> exp_vars = CSVFormat.EXCEL.withHeader().parse(in);
 
-        in = new FileReader("GSEA_input_files/affy_anno_ALL.csv");
-        Iterable<CSVRecord> meta_data = CSVFormat.EXCEL.parse(in);
+        in = new FileReader("Input/test_anno.csv");
+        Iterable<CSVRecord> meta_data = CSVFormat.EXCEL.withHeader().parse(in);
 
         HashMap<String, Double> dist = new HashMap<>();
 
 
 
 		for(CSVRecord record: meta_data){
-		    try (Stream<String> lines = Files.lines(Paths.get(record.get("File name")), Charset.defaultCharset())) {
+		    try (Stream<String> lines = Files.lines(Paths.get(record.get("File Name")), Charset.defaultCharset())) {
 		        for (String line : (Iterable<String>) lines::iterator) {
 		            String[] sep_line = line.split("\t");
                     Double previousValue = dist.get(sep_line[0]);

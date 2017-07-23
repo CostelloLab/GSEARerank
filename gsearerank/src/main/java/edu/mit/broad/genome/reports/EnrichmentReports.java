@@ -979,15 +979,6 @@ public class EnrichmentReports extends ChartHelper {
         return new RichDataframe(sdf, metaData, cell_id_colorMap, cell_id_linkMap);
     }
 
-    /**
-     * @param rl
-     * @param template
-     * @param gset
-     * @param esRaw
-     * @param esAreaNorm
-     * @param np
-     * @return
-     */
     public static KeyValTable createSummaryTable(final String dsName,
                                                  final String phenotypeName,
                                                  final String upInClassName_opt,
@@ -1312,11 +1303,6 @@ public class EnrichmentReports extends ChartHelper {
         return new EnrichmentCharts(chart0, chart1, chart2, chart3, combo);
     }
 
-    /**
-     * @param hitProfile
-     * @param esProfile
-     * @return
-     */
     public static XChart createESProfileChart(final Vector esProfile,
                                               final Vector esProfile_full_opt,
                                               final Vector hitIndices,
