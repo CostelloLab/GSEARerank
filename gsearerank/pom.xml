@@ -170,6 +170,74 @@
       <artifactId>edtftpj</artifactId>
       <version>1.5.3</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.jgoodies/jgoodies-looks -->
+    <dependency>
+      <groupId>com.jgoodies</groupId>
+      <artifactId>jgoodies-looks</artifactId>
+      <version>2.7.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/foxtrot/foxtrot -->
+    <dependency>
+      <groupId>foxtrot</groupId>
+      <artifactId>foxtrot</artifactId>
+      <version>2.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.jidesoft/jide-oss -->
+    <dependency>
+      <groupId>com.jidesoft</groupId>
+      <artifactId>jide-oss</artifactId>
+      <version>2.7.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.jgoodies/forms -->
+    <dependency>
+      <groupId>com.jgoodies</groupId>
+      <artifactId>forms</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.jidesoft/jide-components -->
+    <dependency>
+      <groupId>com.jidesoft</groupId>
+      <artifactId>jide-components</artifactId>
+      <version>3.5.9</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.jidesoft/jide-charts -->
+    <dependency>
+      <groupId>com.jidesoft</groupId>
+      <artifactId>jide-charts</artifactId>
+      <version>3.5.9</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
+    <dependency>
+      <groupId>net.sourceforge.jexcelapi</groupId>
+      <artifactId>jxl</artifactId>
+      <version>2.6.12</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jfree</groupId>
+      <artifactId>jfreesvg</artifactId>
+      <version>3.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.4</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.3</version>
+    </dependency>
+
+
+
+
+
+
+
+
+
 
 
 

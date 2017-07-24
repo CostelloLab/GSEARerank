@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Eclipse" />
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/genome/viewers/DatasetViewer.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/genome/viewers/GeneSetMatrixViewer2.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/genome/viewers/ReportViewer.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/api/AppDataLoaderWidget.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/org/genepattern/gsea/HCLAlgorithm.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/xbench/xchoosers/TemplateCreatorWidgets.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/cytoscape/action/EnrichmentMapInputPanelAction.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/genome/viewers/DatasetViewerAction.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/genome/viewers/GeneSetMatrixViewerAction.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/genome/viewers/ReportViewerAction.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/xbench/tui/ToolDisplayFactory.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/xbench/tui/ToolLauncherDefaultImpl.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/xbench/xchoosers/TemplateChooserUI.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/org/genepattern/gsea/LeadingEdgeAnalysis.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/api/AppDataLoaderAction.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/api/PastAnalysisAction.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/gsea/LeadingEdgeReportAction.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/gsea/Main.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xtools/gsea/LeadingEdgeTool.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/xbench/tui/SingleToolLauncher.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/xbench/tui/SingleToolLauncherAction.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/org/genepattern/gsea/LeadingEdgeWidget.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/gsea/GSEA.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/gsea/GseaActionRegistry.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/gsea/GseaFijiTabsApplicationFrame.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xtools/api/param/TemplateSingleChooserParam.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/xbench/tui/TaskManager.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/edu/mit/broad/xbench/tui/ToolRunnerControl.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/api/AppToolLauncherAction.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/gsea/UpdateChecker.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xtools/gsea/Gsea.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xtools/gsea/AbstractGsea2Tool.java" />
+      <file url="file://$PROJECT_DIR$/src/main/java/xapps/gsea/LeadingEdgeReportViewer.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />

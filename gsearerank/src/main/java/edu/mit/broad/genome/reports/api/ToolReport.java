@@ -642,9 +642,9 @@ public class ToolReport implements Report {
         // NOW FOR THE BUSINESS LOGIC associated with adding pages
 
         // 1) for html pages, auto add a CSS file. Only do this once
-        if (page instanceof HtmlPage) {
-            createCss();
-        }
+// hpl       if (page instanceof HtmlPage) {
+// hpl           createCss();
+// hpl       }
 
     }
 

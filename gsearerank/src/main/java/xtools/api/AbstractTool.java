@@ -7,7 +7,8 @@ import edu.mit.broad.genome.Conf;
 import edu.mit.broad.genome.JarResources;
 import edu.mit.broad.genome.XLogger;
 import edu.mit.broad.genome.alg.GeneSetGenerators;
-import edu.mit.broad.genome.objects.*;
+import edu.mit.broad.genome.objects.Dataset;
+import edu.mit.broad.genome.objects.GeneSet;
 import edu.mit.broad.genome.parsers.ParseUtils;
 import edu.mit.broad.genome.reports.api.Report;
 import edu.mit.broad.genome.reports.api.ReportIndexState;
@@ -17,20 +18,20 @@ import edu.mit.broad.genome.utils.CmdLineArgs;
 import edu.mit.broad.genome.utils.SystemUtils;
 import edu.mit.broad.vdb.chip.Chip;
 import edu.mit.broad.xbench.core.api.Application;
-
-import org.apache.commons.lang3.BooleanUtils;
 import org.apache.ecs.html.Div;
 import org.apache.ecs.html.H4;
 import org.apache.log4j.Logger;
-import org.genepattern.uiutil.UIUtil;
-
-import xapps.gsea.UpdateChecker;
 import xtools.api.param.*;
 
 import java.io.IOException;
 import java.io.PrintStream;
 import java.lang.reflect.Field;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Properties;
+
+//hpl import xapps.gsea.UpdateChecker;
 
 /**
  * Interface for a runnable Tool.
@@ -244,7 +245,7 @@ public abstract class AbstractTool implements Tool {
 
     // @note this is the core start report method
     protected void startExec(final ReportIndexState indexState) throws IOException {
-        UpdateChecker.oneTimeGseaUpdateCheck(null);
+//HPL        UpdateChecker.oneTimeGseaUpdateCheck(null);
         fTimer.start();
         fReport = new ToolReport(this, true, indexState);
         //log.info("Running " + getName() + " with reports: " + fRptLabelParam.getReportLabel() + " folder: " + fReport.getReportDir() + " indexState: " + indexState.toString());

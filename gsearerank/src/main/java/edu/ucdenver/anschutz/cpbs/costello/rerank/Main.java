@@ -6,7 +6,9 @@ import org.apache.commons.csv.CSVRecord;
 import xtools.api.AbstractTool;
 import xtools.gsea.GseaPreranked;
 
-import java.io.*;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;

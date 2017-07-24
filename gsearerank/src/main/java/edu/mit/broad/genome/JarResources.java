@@ -3,18 +3,13 @@
  *******************************************************************************/
 package edu.mit.broad.genome;
 
-import edu.mit.broad.genome.parsers.ParseUtils;
 import edu.mit.broad.xbench.core.api.Application;
-
 import org.apache.log4j.Logger;
-
 import xapps.gsea.GseaWebResources;
 
 import javax.swing.*;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.Properties;
@@ -245,8 +240,8 @@ public class JarResources {
             klog.error(t);
         }
         //throw new RuntimeException("cant find: " + name);
-        klog.warn("could not find resource: " + name + " url: " + url
-                + " ... using default icon instead.");
+// hpl        klog.warn("could not find resource: " + name + " url: " + url
+// hpl               + " ... using default icon instead.");
 
         return ICON_NOT_FOUND;
     }
