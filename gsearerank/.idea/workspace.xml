@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b909aee9-51a7-43e6-8f72-7b6a9e0cb651" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Input/gsea_rerank_sample_input_file.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/edu/ucdenver/anschutz/cpbs/costello/rerank/RerankFileParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/ucdenver/anschutz/cpbs/costello/rerank/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/ucdenver/anschutz/cpbs/costello/rerank/RerankFileParser.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/ucdenver/anschutz/cpbs/costello/rerank/Main.java" afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/anschutz/cpbs/costello/rerank/Rerank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Input/Main_run_configurations_arguments.txt" afterPath="$PROJECT_DIR$/../Input/Main_run_configurations_arguments.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/ucdenver/anschutz/cpbs/costello/rerank/Rerank.java" afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/anschutz/cpbs/costello/rerank/Rerank.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,8 +35,8 @@
       <file leaf-file-name="Rerank.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/anschutz/cpbs/costello/rerank/Rerank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="56" column="51" lean-forward="false" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+            <state relative-caret-position="163">
+              <caret line="25" column="69" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -350,12 +343,12 @@
       <workItem from="1500678930712" duration="13324000" />
       <workItem from="1500924489334" duration="974000" />
       <workItem from="1500925727268" duration="1653000" />
-      <workItem from="1500927662154" duration="4772000" />
+      <workItem from="1500927662154" duration="5316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21000000" />
+    <option name="totallyTimeSpent" value="21544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1669" y="141" width="1622" height="922" extended-state="6" />
@@ -798,8 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/anschutz/cpbs/costello/rerank/Rerank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="56" column="51" lean-forward="false" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        <state relative-caret-position="163">
+          <caret line="25" column="69" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
