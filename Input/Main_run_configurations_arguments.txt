@@ -1,6 +1,6 @@
--gmx GSEA_input_files/test.gmt
--rnk GSEA_input_files/test.rnk
--out GSEA_output_files/
+-gmx Input/test.gmt
+-rnk Input/test.rnk
+-out Output/
 -norm meandiv
 -nperm 1000
 -scoring_scheme weighted
