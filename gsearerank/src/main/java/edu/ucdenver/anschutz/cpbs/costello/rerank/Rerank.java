@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.stream.Stream;
 
@@ -23,15 +24,15 @@ public class Rerank {
         Iterable<CSVRecord> exp_vars = CSVFormat.EXCEL.withHeader().parse(new FileReader(vars_file_name));
         Iterable<CSVRecord> meta_data = CSVFormat.EXCEL.withHeader().parse(new FileReader(meta_data_file_name));
 
-        HashMap<String, Double> dist = get_dist(meta_data, exp_vars);
+        HashMap<String, Integer[]> dist = get_dist(meta_data, exp_vars);
 
-		GseaPreranked tool = new GseaPreranked(args);
+		GseaPreranked tool = new GseaPreranked(args, dist);
 //        tool_main(tool);
 	}
 
 
-	private static HashMap<String, Double> get_dist(Iterable<CSVRecord> meta_data, Iterable<CSVRecord> exp_vars) {
-        HashMap<String, Double> dist = new HashMap<>();
+	private static HashMap<String, Integer[]> get_dist(Iterable<CSVRecord> meta_data, Iterable<CSVRecord> exp_vars) {
+        HashMap<String, Integer[]> dist = new HashMap<>();
 
 
         int num_rnk_files = 0;
@@ -41,9 +42,19 @@ public class Rerank {
                     int rank = 1;
                     for (String line : (Iterable<String>) lines::iterator) {
                         String[] sep_line = line.split("\t");
-                        Double previousValue = dist.get(sep_line[0]);
-                        if (previousValue == null) previousValue = 0.0;
-                        dist.put(sep_line[0], previousValue + rank);
+                        String gene_name = sep_line[0];
+                        if (dist.get(gene_name) == null) {
+                            Integer[] min_max = new Integer[2];
+                            min_max[0] = Integer.MAX_VALUE;
+                            min_max[1] = Integer.MIN_VALUE;
+                            dist.put(gene_name, min_max);
+                        }
+                        if (dist.get(gene_name)[0] > rank){
+                            dist.get(gene_name)[0] = rank;
+                        }
+                        if (dist.get(gene_name)[1] < rank){
+                            dist.get(gene_name)[1] = rank;
+                        }
                         rank++;
                     }
                     num_rnk_files++;
@@ -53,7 +64,7 @@ public class Rerank {
             }
         }
         for (String name: dist.keySet()){
-            dist.put(name, dist.get(name)/num_rnk_files);
+            System.out.println(name + ", " + Arrays.toString(dist.get(name)));
         }
 
         return dist;

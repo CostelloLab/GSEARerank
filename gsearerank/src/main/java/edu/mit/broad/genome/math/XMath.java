@@ -6,10 +6,7 @@ package edu.mit.broad.genome.math;
 import edu.mit.broad.genome.XLogger;
 import org.apache.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 /**
  * Functionally extends java.lang.Math with additional math related methods.
@@ -196,13 +193,19 @@ public class XMath {
         return randomlySampleWithoutReplacement(numRndNeeded, highestrandomnumExclusive, rsgen.getRandom());
     }
 
+    public static int[] randomlySampleWithoutReplacement(final int numRndNeeded, final int highestrandomnumExclusive, final RandomSeedGenerator rsgen, final HashMap<Integer, Integer[]> dist) {
+        return randomlySampleWithoutReplacement(numRndNeeded, highestrandomnumExclusive, rsgen.getRandom(), dist);
+    }
+
     /**
      * @param numRndNeeded       number of random picks nmeeded
      * @param maxRndNumExclusive range -> picked from 0 to highestrandomnum-1
      * @param rnd
      * @return
      */
-    public static int[] randomlySampleWithoutReplacement(final int numRndNeeded, final int maxRndNumExclusive, final Random rnd) {
+    // hpl: I will edit this function so that can take a distribution that bounds
+    //       the random number generator's uniform distribution from above and below
+    private static int[] randomlySampleWithoutReplacement(final int numRndNeeded, final int maxRndNumExclusive, final Random rnd) {
 
         if (maxRndNumExclusive == numRndNeeded) { // no random picking needed, we have exactly as many as asked for
             return XMath.toIndices(maxRndNumExclusive, false);
@@ -212,18 +215,18 @@ public class XMath {
             throw new IllegalArgumentException("Cannot pick more numbers (no replacement) numRndNeeded: " + numRndNeeded + " than max possible number maxRndNumExclusive: " + maxRndNumExclusive);
         }
 
-        List seen = new ArrayList(numRndNeeded);
+        List<Integer> seen = new ArrayList<>(numRndNeeded);
         int[] inds = new int[numRndNeeded];
         int cnt = 0;
 
         for (int i = 0; i < numRndNeeded;) {
             int r = rnd.nextInt(maxRndNumExclusive);
 
-            if (seen.contains(new Integer(r))) {
+            if (seen.contains(r)) {
                 continue;
             }
 
-            seen.add(new Integer(r));
+            seen.add(r);
 
             inds[cnt++] = r;
 
@@ -235,12 +238,49 @@ public class XMath {
         return inds;
     }
 
-    public static double getPValue(final float score, final float[] values) {
+    public static int[] randomlySampleWithoutReplacement(final int numRndNeeded, final int maxRndNumExclusive, final Random rnd, HashMap<Integer, Integer[]> dist) {
+
+        if (maxRndNumExclusive == numRndNeeded) { // no random picking needed, we have exactly as many as asked for
+            return XMath.toIndices(maxRndNumExclusive, false);
+        }
+
+        if (numRndNeeded > maxRndNumExclusive) {
+            throw new IllegalArgumentException("Cannot pick more numbers (no replacement) numRndNeeded: " + numRndNeeded + " than max possible number maxRndNumExclusive: " + maxRndNumExclusive);
+        }
+
+        List<Integer> seen = new ArrayList<>(numRndNeeded);
+        int[] inds = new int[numRndNeeded];
+        int cnt = 0;
+        int min;
+        int max;
+
+        for (int i = 0; i < numRndNeeded;) {
+            min = dist.get(cnt)[0];
+            max = dist.get(cnt)[1];
+            int r = rnd.nextInt(max-min) + min;
+
+            if (seen.contains(r)) {
+                continue;
+            }
+
+            seen.add(r);
+
+            inds[cnt++] = r;
+
+            if (cnt == numRndNeeded) {
+                break;
+            }
+        }
+
+        return inds;
+    }
+
+    private static double getPValue(final float score, final float[] values) {
 
         int cntmore = 0;
 
-        for (int i = 0; i < values.length; i++) {
-            if (values[i] > score) {
+        for (float value : values) {
+            if (value > score) {
                 cntmore++;
             }
         }
@@ -250,12 +290,12 @@ public class XMath {
         return ((double) cntmore) / (double) values.length;
     }
 
-    public static double getPValueLessThan(final float score, final float[] values) {
+    private static double getPValueLessThan(final float score, final float[] values) {
 
         int cntless = 0;
 
-        for (int i = 0; i < values.length; i++) {
-            if (values[i] < score) {
+        for (float value : values) {
+            if (value < score) {
                 cntless++;
             }
         }
@@ -271,27 +311,19 @@ public class XMath {
         return getPValueLessThan(score, values.elementData);
     }
 
-    /**
-     * If the score is negative look to the left (i.e count how many less)
-     * If the score is positive look to the right (i.e count how many are less)
-     *
-     * @param score
-     * @param values
-     * @return
-     */
-    public static double getPValueTwoTailed(final float score, final float[] values) {
+    private static double getPValueTwoTailed(final float score, final float[] values) {
 
         int cnt = 0;
 
         if (score >= 0) {
-            for (int i = 0; i < values.length; i++) {
-                if (values[i] > score) {
+            for (float value : values) {
+                if (value > score) {
                     cnt++;
                 }
             }
         } else {
-            for (int i = 0; i < values.length; i++) {
-                if (values[i] < score) {
+            for (float value : values) {
+                if (value < score) {
                     cnt++;
                 }
             }
@@ -302,7 +334,7 @@ public class XMath {
         return ((double) cnt) / (double) values.length;
     }
 
-    public static double getPValueTwoTailed(final float score, final Vector values) {
+    private static double getPValueTwoTailed(final float score, final Vector values) {
         return getPValueTwoTailed(score, values.elementData);
     }
 
@@ -322,9 +354,9 @@ public class XMath {
         }
 
         float max = values[0];
-        for (int i = 0; i < values.length; i++) {
-            if (max < values[i]) {
-                max = values[i];
+        for (float value : values) {
+            if (max < value) {
+                max = value;
             }
         }
 
@@ -342,9 +374,9 @@ public class XMath {
         }
 
         int min = values[0];
-        for (int i = 0; i < values.length; i++) {
-            if (min > values[i]) {
-                min = values[i];
+        for (int value : values) {
+            if (min > value) {
+                min = value;
             }
         }
 
@@ -539,17 +571,6 @@ public class XMath {
         return numr / denr;
     }
 
-    /**
-     * see kens doc for details
-     *
-     * @param x
-     * @param yTemplate
-     * @param z
-     * @param usebiased
-     * @param usemedian
-     * @param fixlow
-     * @return
-     */
     public static double regressionSlope(final Vector x,
                                          final Vector yTemplate,
                                          final Vector[] splits,
@@ -570,8 +591,8 @@ public class XMath {
         double C = (numrA - numrB) / (denrA - denrB);
 
         double var = 0;
-        for (int i = 0; i < splits.length; i++) {
-            var += splits[i].stddev(biased, fixlow);
+        for (Vector split : splits) {
+            var += split.stddev(biased, fixlow);
         }
 
         //System.out.println("C\t" + C + "\tvarsum\t" + var);
@@ -584,20 +605,11 @@ public class XMath {
 
     }
 
-    /**
-     * dist <- sum(x*y) / (sqrt(sum(x^2) * sum(y^2)) );
-     *
-     * @todo check if this is a dist or simil?
-     * i.e is a low number "good" or "bad"
-     * Looks like its a "bad", and hence need to do 1-
-     * <p/>
-     * No parameters
-     */
     public static double cosine(final Vector x, final Vector y) {
         return cosine(x.elementData, y.elementData);
     }
 
-    public static double cosine(final float[] x, final float[] y) {
+    private static double cosine(final float[] x, final float[] y) {
 
         enforceEqualSize(x, y);
 

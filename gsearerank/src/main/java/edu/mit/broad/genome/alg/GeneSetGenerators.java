@@ -29,7 +29,8 @@ public class GeneSetGenerators {
     public static GeneSet[] createRandomGeneSetsFixedSize(final int numRndGeneSets,
                                                           final RankedList rl,
                                                           final GeneSet gset,
-                                                          final RandomSeedGenerator rst) {
+                                                          final RandomSeedGenerator rst,
+                                                          final HashMap<String, Integer[]> dist) {
 
         String prefix = NamingConventions.removeExtension(gset);
 
@@ -38,16 +39,31 @@ public class GeneSetGenerators {
 
         GeneSet[] rndgsets = new GeneSet[numRndGeneSets];
 
-        for (int g = 0; g < numRndGeneSets; g++) {
+        HashMap<Integer, Integer[]> numKey_dist = new HashMap<>();
+        if (dist != null) {
+            for (int i = 0; i < rl.getSize(); i++) {
+                numKey_dist.put(i, dist.get(rl.getRankName(i)));
+            }
+        }
+        else {
+            numKey_dist = null;
+        }
 
+        for (int g = 0; g < numRndGeneSets; g++) {
+            int[] randomrowindices;
             // IMP random from 0 to nrows not nmembers. duh!.
-            int[] randomrowindices = XMath.randomlySampleWithoutReplacement(nmembers, rl.getSize(), rst);
+            if (dist == null) {
+                randomrowindices = XMath.randomlySampleWithoutReplacement(nmembers, rl.getSize(), rst);
+            }
+            else {
+                randomrowindices = XMath.randomlySampleWithoutReplacement(nmembers, rl.getSize(), rst, numKey_dist);
+            }
 
             if (randomrowindices.length != nmembers) {
                 throw new IllegalStateException("random indices generated: " + randomrowindices.length + " not equal to # members: " + nmembers);
             }
 
-            Set members = new HashSet();
+            Set<String> members = new HashSet<>();
 
             for (int i = 0; i < nmembers; i++) {
                 members.add(rl.getRankName(randomrowindices[i]));
@@ -62,6 +78,7 @@ public class GeneSetGenerators {
 
         return rndgsets;
     }
+
 
     public static GeneSet[] removeGeneSetsSmallerThan(final GeneSet[] gsets, final int cutoff) {
 

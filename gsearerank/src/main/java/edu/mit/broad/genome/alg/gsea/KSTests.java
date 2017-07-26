@@ -116,11 +116,12 @@ public class KSTests {
                                     final int nperm,
                                     final RandomSeedGenerator rst,
                                     final Chip chip,
-                                    final GeneSetCohortGenerator gcohgen) throws Exception {
+                                    final GeneSetCohortGenerator gcohgen,
+                                    final HashMap<String, Integer[]> dist) throws Exception {
 
         log.debug("!!!! Executing for: " + rl_real.getName() + " # features: " + rl_real.getSize());
 
-        EnrichmentResult[] results = shuffleGeneSet_precannedRankedList(nperm, rl_real, null, gsets, chip, gcohgen, rst, false, true, true);
+        EnrichmentResult[] results = shuffleGeneSet_precannedRankedList(nperm, rl_real, null, gsets, chip, gcohgen, rst, false, true, true, dist);
         return new EnrichmentDbImpl_one_shared_rl(rl_real.getName(),
                 rl_real, null, null, results, new LabelledVectorProcessors.None(),
                 new Metrics.None(),
@@ -267,7 +268,8 @@ public class KSTests {
                                                                  final RandomSeedGenerator rst,
                                                                  final boolean qualifyGeneSets,
                                                                  final boolean storeDeepForRL,
-                                                                 final boolean storeRESPointByPoint_for_real) {
+                                                                 final boolean storeRESPointByPoint_for_real,
+                                                                 final HashMap<String, Integer[]> dist) {
 
         final EnrichmentResult[] results = new EnrichmentResult[gsetsReal.length];
         final GeneSetCohort gcohReal = gcohgen.createGeneSetCohort(rlReal, gsetsReal, qualifyGeneSets, true);
@@ -284,7 +286,7 @@ public class KSTests {
             //log.debug("started gsets");
             Vector rndEss;
             if (nperm > 0) {
-                final GeneSet[] rndgsets = GeneSetGenerators.createRandomGeneSetsFixedSize(nperm, rlReal, gsetsReal[g], rst);
+                final GeneSet[] rndgsets = GeneSetGenerators.createRandomGeneSetsFixedSize(nperm, rlReal, gsetsReal[g], rst, dist);
                 final GeneSetCohort gcohRnd = gcohReal.clone(rndgsets, false);
                 rndEss = new Vector(rndgsets.length);
                 final EnrichmentScore[] rnds = core.calculateKSScore(gcohRnd, false); // never store deep for rnds
@@ -339,7 +341,7 @@ public class KSTests {
         final Chip chip = ds.getAnnot().getChip();
 
         final EnrichmentResult[] results = shuffleGeneSet_precannedRankedList(nperm,
-                rlReal, template, gsets, chip, gen, rst, false, true, storeRESPointByPoint_for_real); // @note store deep
+                rlReal, template, gsets, chip, gen, rst, false, true, storeRESPointByPoint_for_real, null); // @note store deep
 
         final String name = NamingConventions.generateName(ds, template, true);
         return new EnrichmentDbImpl_one_shared_rl(name, rlReal, ds, template,

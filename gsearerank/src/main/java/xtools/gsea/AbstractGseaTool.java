@@ -69,6 +69,8 @@ public abstract class AbstractGseaTool extends AbstractTool {
     protected void doAdditionalParams() {
     }
 
+    // hpl: I need to use this method to add a param for each user input I am adding
+    //       These are the metadata file and the variables file
     public void declareParams() {
 
         //this.fChipParam = new ChipChooserMultiParam(false);

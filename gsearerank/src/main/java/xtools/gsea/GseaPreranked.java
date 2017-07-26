@@ -7,7 +7,10 @@ import edu.mit.broad.genome.alg.gsea.GeneSetCohortGenerator;
 import edu.mit.broad.genome.alg.gsea.KSTests;
 import edu.mit.broad.genome.math.RandomSeedGenerator;
 import edu.mit.broad.genome.math.RandomSeedGenerators;
-import edu.mit.broad.genome.objects.*;
+import edu.mit.broad.genome.objects.FeatureAnnot;
+import edu.mit.broad.genome.objects.FeatureAnnotImpl;
+import edu.mit.broad.genome.objects.GeneSet;
+import edu.mit.broad.genome.objects.RankedList;
 import edu.mit.broad.genome.objects.esmatrix.db.EnrichmentDb;
 import edu.mit.broad.genome.objects.strucs.CollapsedDetails;
 import edu.mit.broad.genome.parsers.EdbFolderParser;
@@ -15,11 +18,11 @@ import edu.mit.broad.genome.reports.EnrichmentReports;
 import edu.mit.broad.genome.reports.api.ReportIndexState;
 import edu.mit.broad.genome.reports.pages.HtmlReportIndexPage;
 import edu.mit.broad.vdb.chip.Chip;
+import org.apache.commons.lang3.StringUtils;
 import xtools.api.param.*;
 
+import java.util.HashMap;
 import java.util.Properties;
-
-import org.apache.commons.lang3.StringUtils;
 
 /**
  * This is the "xtool" that implements the gsea program. For a far simpler tour of how to use the gsea
@@ -45,6 +48,7 @@ public class GseaPreranked extends AbstractGseaTool {
             "Optional alternate delimiter character for gene set names instead of comma", null, false, new char[] { ';' }, Param.ADVANCED);
 
     private GeneSet[] fOrigGeneSets;
+    private HashMap<String, Integer[]> dist;
 
     /**
      * Class constructor
@@ -59,11 +63,11 @@ public class GseaPreranked extends AbstractGseaTool {
         super.init(args);
     }
 
-    /**
-     * For ParamSet interrogation use only -- not executable
-     *
-     * @param name
-     */
+    public GseaPreranked(final String[] args, final HashMap<String, Integer[]> dist) {
+        super.init(args);
+        this.dist = dist;
+    }
+
     public GseaPreranked() {
         declareParams();
     }
@@ -140,7 +144,8 @@ public class GseaPreranked extends AbstractGseaTool {
                 nperms,
                 rst,
                 chip,
-                gcohgen
+                gcohgen,
+                dist
         );
 
         // Make the report
