@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: . gsea-3.0.jar commons-csv-1.4
+Main-Class: edu.ucdenver.gsearerank.Test
+
