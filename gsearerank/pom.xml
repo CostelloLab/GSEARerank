@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>edu.ucdenver.anschutz.cpbs.costello</groupId>
-  <artifactId>gsea-rerank</artifactId>
+  <groupId>edu.ucdenver</groupId>
+  <artifactId>gsearerank</artifactId>
   <version>1.0-SNAPSHOT</version>
   <build>
     <plugins>
@@ -19,7 +19,7 @@
   </build>
   <packaging>jar</packaging>
 
-  <name>gsea-rerank</name>
+  <name>gsearerank</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -27,228 +27,11 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>1.2.17</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/ecs/ecs -->
-    <dependency>
-      <groupId>ecs</groupId>
-      <artifactId>ecs</artifactId>
-      <version>1.4.2</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/trove/trove -->
-    <dependency>
-      <groupId>trove</groupId>
-      <artifactId>trove</artifactId>
-      <version>1.0.2</version>
-    </dependency>
+
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-csv</artifactId>
-      <version>1.3</version>
+      <version>1.4</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.5</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
-    <dependency>
-      <groupId>com.googlecode.json-simple</groupId>
-      <artifactId>json-simple</artifactId>
-      <version>1.1</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.ujmp/ujmp-core -->
-    <dependency>
-      <groupId>org.ujmp</groupId>
-      <artifactId>ujmp-core</artifactId>
-      <version>0.3.0</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/jfree/jfreechart -->
-    <dependency>
-      <groupId>jfree</groupId>
-      <artifactId>jfreechart</artifactId>
-      <version>1.0.0</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
-    <dependency>
-      <groupId>dom4j</groupId>
-      <artifactId>dom4j</artifactId>
-      <version>1.6.1</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
-    <dependency>
-        <groupId>com.googlecode.json-simple</groupId>
-        <artifactId>json-simple</artifactId>
-        <version>1.1.1</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-    <dependency>
-        <groupId>commons-io</groupId>
-        <artifactId>commons-io</artifactId>
-        <version>2.5</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/ecs/ecs -->
-    <dependency>
-        <groupId>ecs</groupId>
-        <artifactId>ecs</artifactId>
-        <version>1.4.2</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/junit/junit -->
-    <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>3.8.1</version>
-        <scope>test</scope>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
-    <dependency>
-        <groupId>log4j</groupId>
-        <artifactId>log4j</artifactId>
-        <version>1.2.17</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-csv -->
-    <dependency>
-        <groupId>org.apache.commons</groupId>
-        <artifactId>commons-csv</artifactId>
-        <version>1.4</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/jfree/jcommon -->
-    <dependency>
-        <groupId>jfree</groupId>
-        <artifactId>jcommon</artifactId>
-        <version>1.0.16</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
-    <dependency>
-        <groupId>org.jfree</groupId>
-        <artifactId>jfreechart</artifactId>
-        <version>1.0.19</version>
-    </dependency>
-      <!-- https://mvnrepository.com/artifact/org.json/json -->
-      <dependency>
-          <groupId>org.json</groupId>
-          <artifactId>json</artifactId>
-          <version>20170516</version>
-      </dependency>
-    <!-- https://mvnrepository.com/artifact/trove/trove -->
-    <dependency>
-        <groupId>trove</groupId>
-        <artifactId>trove</artifactId>
-        <version>1.0.2</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
-    <dependency>
-        <groupId>org.apache.commons</groupId>
-        <artifactId>commons-lang3</artifactId>
-        <version>3.6</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.maven/maven-artifact -->
-    <dependency>
-        <groupId>org.apache.maven</groupId>
-        <artifactId>maven-artifact</artifactId>
-        <version>3.5.0</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-compress</artifactId>
-      <version>1.14</version>
-    </dependency>
-    <dependency>
-      <groupId>com.enterprisedt</groupId>
-      <artifactId>edtftpj</artifactId>
-      <version>1.5.3</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/com.jgoodies/jgoodies-looks -->
-    <dependency>
-      <groupId>com.jgoodies</groupId>
-      <artifactId>jgoodies-looks</artifactId>
-      <version>2.7.0</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/foxtrot/foxtrot -->
-    <dependency>
-      <groupId>foxtrot</groupId>
-      <artifactId>foxtrot</artifactId>
-      <version>2.0</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/com.jidesoft/jide-oss -->
-    <dependency>
-      <groupId>com.jidesoft</groupId>
-      <artifactId>jide-oss</artifactId>
-      <version>2.7.1</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/com.jgoodies/forms -->
-    <dependency>
-      <groupId>com.jgoodies</groupId>
-      <artifactId>forms</artifactId>
-      <version>1.2.1</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/com.jidesoft/jide-components -->
-    <dependency>
-      <groupId>com.jidesoft</groupId>
-      <artifactId>jide-components</artifactId>
-      <version>3.5.9</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/com.jidesoft/jide-charts -->
-    <dependency>
-      <groupId>com.jidesoft</groupId>
-      <artifactId>jide-charts</artifactId>
-      <version>3.5.9</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
-    <dependency>
-      <groupId>net.sourceforge.jexcelapi</groupId>
-      <artifactId>jxl</artifactId>
-      <version>2.6.12</version>
-    </dependency>
-    <dependency>
-      <groupId>org.jfree</groupId>
-      <artifactId>jfreesvg</artifactId>
-      <version>3.2</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.4</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient</artifactId>
-      <version>4.5.3</version>
-    </dependency>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </dependencies>
 </project>
