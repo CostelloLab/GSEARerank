@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gsea-3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/gsea-3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
