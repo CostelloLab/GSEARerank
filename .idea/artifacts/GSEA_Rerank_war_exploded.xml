@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GSEA_Rerank:war exploded">
+    <output-path>$PROJECT_DIR$/artifacts/GSEA_Rerank_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="GSEA_Rerank/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GSEA_Rerank" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

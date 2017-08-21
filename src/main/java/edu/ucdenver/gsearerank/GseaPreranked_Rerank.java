@@ -187,8 +187,6 @@ public class GseaPreranked_Rerank extends AbstractGseaTool {
         }
 
         if (annotationFilename != null && filterFilename != null) {
-            System.out.println(filterFilename);
-            System.out.println(annotationFilename);
 
             Iterable<CSVRecord> filter = null;
             try {

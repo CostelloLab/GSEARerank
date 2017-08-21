@@ -2,923 +2,26 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="GSEA_Rerank:jar" />
+      <artifact name="GSEA_Rerank:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c161736-aff2-4401-b984-831cb4ef7845" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GSEA_Rerank.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GSEARerank.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Input/gsea_rerank_sample_input_file.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/artifacts/gsearerank_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/libraries/Maven__org_apache_commons_commons_csv_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/libraries/gsea_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/libraries/org_apache_commons_commons_lang3_3_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/libraries/org_apache_maven_maven_artifact_3_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/gsearerank.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/lib/gsea-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/src/main/java/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/src/main/java/edu/ucdenver/gsearerank/GeneSetGenerators_Rerank.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/src/main/java/edu/ucdenver/gsearerank/GseaPreranked_Rerank.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/src/main/java/edu/ucdenver/gsearerank/KSTests_Rerank.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/src/main/java/edu/ucdenver/gsearerank/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/src/main/java/edu/ucdenver/gsearerank/XMath_Rerank.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/apple/dts/samplecode/osxadapter/OSXAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/apple/dts/samplecode/osxadapter/OSXAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/CytoscapeCyrest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/CytoscapeLaunch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/CytoscapeLocationSingleton$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/CytoscapeLocationSingleton$CytoscapeDownloadException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/CytoscapeLocationSingleton$FileChooserRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/CytoscapeLocationSingleton$OnlyCyto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/CytoscapeLocationSingleton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/EnrichmentMapParameters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/CollapsiblePanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/CollapsiblePanel$CollapsableTitledBorder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/CollapsiblePanel$ExpandAndCollapseAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/CollapsiblePanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapInputPanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapInputPanel$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapInputPanel$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapInputPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel$FormattedTextFieldAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/cytoscape/view/EnrichmentMapParameterPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/Conf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/Errors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/Headers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/JarResources$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/JarResources$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/JarResources$NotFoundIcon.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/JarResources.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/MismatchedSizeException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/NamingConventions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/NotImplementedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/Printf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/StandardException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/TraceUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/XLogger$MyPatternLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/XLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/AlgMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/AlgUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/ComparatorFactory$ChipNameComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/ComparatorFactory$EnrichmentResultByNESComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/ComparatorFactory$FileExtComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/ComparatorFactory$PobComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/ComparatorFactory$ScoredDatasetScoreComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/ComparatorFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/DatasetBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/DatasetGenerators$CollapseStruc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/DatasetGenerators$CollapsedDataset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/DatasetGenerators.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/DatasetMetrics$ScoredStruc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/DatasetMetrics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/DatasetStatsCore$TwoClassMarkerStats.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/DatasetStatsCore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/GeneSetGenerators.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/GeneSetStats$RedStruc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/GeneSetStats.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metric$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metric.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$AbstractMetric.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$Bhattacharyya.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassDiff.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassLog2Ratio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassMeansDiff.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassMeansLog2Ratio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassMeansRatio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassMediansDiff.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassMediansLog2Ratio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassMediansRatio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassOfInterestMean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassOfInterestMedian.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$ClassRatio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$Cosine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$Euclidean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$FeatureVar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$FeatureVarD.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$Manhatten.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$None.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$Pearson.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$PearsonD.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$RegressionSlope.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$Signal2Noise.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics$tTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/Metrics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/RankedListGenerators.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/TwoMer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/VectorSplitter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/distrib/RangeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/fdr/FdrAlgs$FdrMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/fdr/FdrAlgs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/AbstractGeneSetCohort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/DefaultGeneSetCohort$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/DefaultGeneSetCohort$Generator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/DefaultGeneSetCohort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/EdbAlgs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetCohort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetCohortGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetScoringTable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetScoringTables$AbstractScoringTable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetScoringTables$Classic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetScoringTables$Weighted.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetScoringTables$WeightedDoubleSidedAs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetScoringTables$WeightedDoubleSidedAs1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetScoringTables$WeightedOnePointFive.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetScoringTables$WeightedSquared.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneSetScoringTables.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/GeneToGeneSetMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/KSCore$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/KSCore$EnrichmentScoreCohort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/KSCore$EnrichmentScoreImplSlim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/KSCore$HitIndices.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/KSCore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/KSTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/Norm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/Norms$AbstractNormOne.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/Norms$MeanDivPosNegSeperate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/Norms$None.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/Norms$Struc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/Norms.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/PValueCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/PValueCalculatorImpls$GseaImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/gsea/PValueCalculatorImpls.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/markers/AbstractPermutationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/markers/PermutationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/alg/markers/PermutationTestBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/charts/XChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/charts/XChartImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/charts/XChartUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/charts/XComboChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/charts/XComboDomainChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/charts/XComboRangeChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/io/FileTransferable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/io/FtpProgressMonitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/io/FtpResultInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/io/FtpSingleUrlTransferCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/io/LoopedStreams$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/io/LoopedStreams$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/io/LoopedStreams$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/io/LoopedStreams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/io/PobFlavor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/io/PobTransferable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/AddressedVector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/ColorScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/ColorSchemes$BasicColorScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/ColorSchemes$BroadCancer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/ColorSchemes$BroadCancerBlue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/ColorSchemes$BroadCancerRed.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/ColorSchemes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/ColorValue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/DatasetModed.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/DoubleElement$DoubleElementComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/DoubleElement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/GraphMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/LabelledVectorProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/LabelledVectorProcessors$AbstractLabelledVectorProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/LabelledVectorProcessors$None.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/LabelledVectorProcessors$NormalizeAreaTwoSided.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/LabelledVectorProcessors$NormalizeLinear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/LabelledVectorProcessors$NormalizeToMaxThenAreaTwoSided.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/LabelledVectorProcessors$NormalizeToMaxTwoSided.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/LabelledVectorProcessors$NormalizeToSumTwoSided.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/LabelledVectorProcessors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/Matrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/Order.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/Orientation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/RandomSeedGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/RandomSeedGenerators$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/RandomSeedGenerators$Custom.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/RandomSeedGenerators$Standard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/RandomSeedGenerators$Timestamp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/RandomSeedGenerators.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/Range.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/ScaleMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/ScoreMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/SimpleRange.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/SortMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/StringMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/Vector$ComputeSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/Vector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/XMath.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/math/XYVector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/ASComparable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/DatasetModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/GeneSetMatrixModel2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/GeneSetModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/NumberedProxyModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/RankedListModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/ReportModel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/ReportModel$DayTimestamp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/ReportModel$MySessionReportListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/ReportModel$ReportHistoryNodeComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/ReportModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/TemplateModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/XYDatasetMultiTmp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/XYDatasetProxy2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/models/XYDatasetVERT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/APMMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/AbstractGeneSetMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/AbstractObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/AbstractPreTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/AbstractTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/Annot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/AnnotImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/BitSetDataset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ColorDataset$Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ColorDataset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ColorDatasetImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ColorMap$Columns.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ColorMap$Rows.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ColorMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ColumnsImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/DataType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/Dataframe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/Dataset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/DatasetProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/DefaultDataset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/DefaultGeneSetMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/DefaultRankedList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/FSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/FeatureAnnot$Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/FeatureAnnot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/FeatureAnnotImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GPWrappers$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GPWrappers$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GPWrappers$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GPWrappers$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GPWrappers$IExpressionDataAdaptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GPWrappers$LegendTable$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GPWrappers$LegendTable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GPWrappers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GeneSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GeneSetMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GeneSetMatrixHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/GeneSetSignal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/IDataframe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ISet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/Id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/LabelledVector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/MetricWeightStruc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/PersistentObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/PreTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/PreTemplateImpl$NumPair.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/PreTemplateImpl$Pair.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/PreTemplateImpl$StringPair.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/PreTemplateImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ProbePreTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/RankedList$Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/RankedList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/RankedListJITImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/SampleAnnotImpl$ColumnsNull.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/SampleAnnotImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ScoredDataset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/ScoredDatasetImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/StringDataframe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/Template$Class.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/Template$Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/Template.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateDerivative.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateDerivatives$AuxTemplateDerivative.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateDerivatives$ContTemplateDerivative.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateDerivatives$PseudoTemplateDerivative.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateDerivatives.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateFactoryRandomizer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateImpl$ClassImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateImpl$ItemImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateImplFromSampleNames.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/TemplateMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/AbstractEnrichmentDb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentDb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentDbImplWithPermTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentDbImpl_one_shared_rl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentReport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentReportDbImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentReportImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentResultImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentScore$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentScore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/EnrichmentScoreImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/esmatrix/db/GeneSetSignalImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/CollapsedDetails$Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/CollapsedDetails$Ranked.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/CollapsedDetails.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/DatasetTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/DefaultMetricWeightStruc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/FdrStruc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/Hyperlink.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/Linked.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/NamedColor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/SkewCorrectedFdrStruc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/objects/strucs/TemplateRandomizerType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/AbstractParser$Comment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/AbstractParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/AuxUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ChipParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ClsParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/DataFormat$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/DataFormat$ExtFormat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/DataFormat$ParsableFileView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/DataFormat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/DataframeParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/EdbFolderParser$Struc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/EdbFolderParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/FSetParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/GctParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/GmtParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/GmxParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/MiscParsers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/NotSpecifiedBoxWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ObjectCache$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ObjectCache$ExtraCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ObjectCache$PathClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ObjectCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ParseUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/Parser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ParserException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ParserFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ParserWorker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/PclParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/PobBoxModel$PobComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/PobBoxModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/PobBoxModels$ModelItsIndex.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/PobBoxModels.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/RankedListParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ReportParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/ResParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/StringDataframeParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/parsers/TxtDatasetParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/ChartHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/DefaultHyperlink.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/EnrichmentCharts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/EnrichmentReports$BasicReportStruc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/EnrichmentReports$EsProfileDataset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/EnrichmentReports$EsProfileDataset2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/EnrichmentReports$MyEnrichmentReportImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/EnrichmentReports$Ret.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/EnrichmentReports.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/MiscReports.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/NullSafeStringBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/RankedListCharts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/RichDataframe$MetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/RichDataframe$Rich.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/RichDataframe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/PicFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/Report.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ReportIndexState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ToolComments.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ToolReport$Pages.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ToolReport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ToolReportDisplay$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ToolReportDisplay$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ToolReportDisplay$CommonLookAndClickListRenderer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ToolReportDisplay$CommonLookAndClickListRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ToolReportDisplay$MyPopupMouseListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ToolReportDisplay$ReportChartAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/api/ToolReportDisplay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/ExcelTxtPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/FileWrapperPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlFormat$Divs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlFormat$Links.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlFormat$MyDiv.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlFormat$MyTD.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlFormat$MyTH.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlFormat$MyTitle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlFormat$TDs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlFormat$THs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlFormat$Titles.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlFormat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/HtmlReportIndexPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/KeyValTable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/pages/Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/web/LinkedFactory$LinkedGeneSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/web/LinkedFactory$LinkedGeneSymbol.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/web/LinkedFactory$LinkedProbe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/web/LinkedFactory$SimpleLinkedFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/web/LinkedFactory$SimpleLinkedPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/web/LinkedFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/web/WebResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/web/WebResources$DefaultWebResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/reports/web/WebResources.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/GPopupChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/GseaSimpleInternalFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/GuiHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/GuiHelper$Button$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/GuiHelper$Button.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/GuiHelper$List2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/GuiHelper$Table.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/GuiHelper$Tree.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/GuiHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/ImageComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/NotSpecified.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/ProxyComboBoxModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/ProxyTreeModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/SystemConsole$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/SystemConsole.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/TextIconPair.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/choosers/GFileFieldPlusChooser$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/choosers/GFileFieldPlusChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/dnd/DndSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/dnd/DndTarget.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/dnd/DragSourceDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/dnd/DropTargetDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/ChangeValidatedDocument.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GCheckBoxField.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GComboBoxField.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GDirFieldPlusChooser$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GDirFieldPlusChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GFieldPlusChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GFieldUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GFileField.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GIntegerField.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GOptionsFieldPlusChooser$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GOptionsFieldPlusChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GSafeCharsField.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GStringField.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GStringsInputFieldPlusChooser$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/fields/GStringsInputFieldPlusChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/image/IconCustomSized.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/windows/GListWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/swing/windows/GTextAreaWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/ArrayUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/ClassUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/CmdLineArgs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/ColorUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/DateUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/FileUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/ImmutedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/NamedInteger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/ParseException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/SystemUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/Timer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/ZipUtility.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/utils/containers/ClassNamePair.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/AbstractViewer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/ChipViewer$Model.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/ChipViewer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/GeneSetViewer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/GeneSetViewerAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/PhenotypeViewer$InfoView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/PhenotypeViewer$TableView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/PhenotypeViewer$TextView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/PhenotypeViewer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/PhenotypeViewerAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/RankedListViewer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/RankedListViewerAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/SystemConsoleViewer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/SystemConsoleViewer$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/genome/viewers/SystemConsoleViewer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/VdbRuntimeResources.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/AbstractChip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/Chip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/ChipHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/FeatureAnnotChipImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/FileInMemoryChip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/NullSymbolMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/NullSymbolModes$OmitNullSymbolMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/NullSymbolModes$ReplaceWithProbeIdMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/NullSymbolModes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/Probe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/SimpleProbe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/SimpleProbe2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/chip/SimpleProbe3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/Chip2ChipMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/Chip2ChipMapperAbstract.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/Chip2ChipMapperSymbol.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MGeneSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MGeneSetImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MGeneSetMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MGeneSetMatrixImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MapUtils$Struc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MapUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/Mapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MappingDbType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MappingDbTypes$MappingDbTypeImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MappingDbTypes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MappingEtiology.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MutableMappingEtiology$OneMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MutableMappingEtiology$State.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/map/MutableMappingEtiology.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/meg/AliasDb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/meg/AliasDbImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/meg/DefaultGene.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/meg/Gene$Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/meg/Gene.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/vdb/sampledb/SampleAnnot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/ComparatorFactory2$FloatComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/ComparatorFactory2$IntegerComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/ComparatorFactory2$ToolCategoryComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/ComparatorFactory2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/RendererFactory2$BoldHeaderRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/RendererFactory2$CommonLookAndDoubleClickListRenderer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/RendererFactory2$CommonLookAndDoubleClickListRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/RendererFactory2$CommonLookListRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/RendererFactory2$MyPopupMouseListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/RendererFactory2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ChipViewerAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ExtAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/FileAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/FileObjectAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/FilesAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/LongWidgetAction$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/LongWidgetAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ObjectAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/PobActions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ProxyFileAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ProxyFileObjectAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ProxyObjectAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ShowAppRuntimeHomeDirAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ShowDefaultOutputDirAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/WidgetAction$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/WidgetAction$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/WidgetAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/XAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/XDCAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ext/BrowserAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ext/FileBrowserAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/ext/OsExplorerAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/misc_actions/CopyFilesAction$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/misc_actions/CopyFilesAction$MyKeyListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/misc_actions/CopyFilesAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/misc_actions/FilesSelectable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/misc_actions/GeneSetMatrix2GeneSetAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/misc_actions/GeneSetMatrix2GeneSetsAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/misc_actions/GeneSetRemoveDuplicatesAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/actions/misc_actions/LoadAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ApplicationDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ApplicationDialog$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ApplicationDialog$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ApplicationDialog$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ApplicationDialog$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ApplicationDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/DialogWidget.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ErrorWidgetJide2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ErrorWidgetJide2$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ErrorWidgetJide2$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ErrorWidgetJide2$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ErrorWidgetJide2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/JObjectsList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/ObjectBindery.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/SimpleWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/StatusBar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/Widget.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/Window.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/WrappedComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/AbstractWindowManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/Application$Handler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/Application.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/DialogDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/DialogDescriptorJide$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/DialogDescriptorJide$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/DialogDescriptorJide$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/DialogDescriptorJide$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/DialogDescriptorJide$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/DialogDescriptorJide.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/FileManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/FileManagerImpl$ListCellRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/FileManagerImpl$MyPropertyChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/FileManagerImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/ToolManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/ToolManagerImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/VdbManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/VdbManagerImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/WindowManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/XStore$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/XStore$AdditionDecider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/XStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/XStores$DirPathStore$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/XStores$DirPathStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/XStores$FilePathStore$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/XStores$FilePathStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/XStores$StringStore$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/XStores$StringStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/core/api/XStores.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/JRecentFilesList$CopyFilePathAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/JRecentFilesList$ImportFilesAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/JRecentFilesList$ListCellRenderer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/JRecentFilesList$ListCellRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/JRecentFilesList$MyPopupMouseListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/JRecentFilesList$PurgeAllFilesPathAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/JRecentFilesList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/RecentDirsModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/XDirChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/XDirChooserJideImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/XFileChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/XFileChooserImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/filemgr/XFileChooserImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/objmgr/ObjectTree.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/objmgr/ObjectTreePopup$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/objmgr/ObjectTreePopup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/explorer/objmgr/ObjectTreeRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/heatmap/DisplayState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/heatmap/GramImager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/heatmap/GramImagerImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/AbstractPreference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/BooleanPreference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/DirPreference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/FilePreference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/IntPreference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/LinuxBrowserPreference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/Preference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/PreferenceCategory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/StringPreference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/TabPlacementPreference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/XPreferencesFactory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/XPreferencesFactory$GenericPrefAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/prefs/XPreferencesFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/searchers/GeneSearchList$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/searchers/GeneSearchList$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/searchers/GeneSearchList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ExecState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ParamSetDisplay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ParamSetFormDisplay$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ParamSetFormDisplay$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ParamSetFormDisplay$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ParamSetFormDisplay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ReportStub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ToolLauncher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ToolSelectorTree$Model.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ToolSelectorTree$Renderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/tui/ToolSelectorTree.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/xchoosers/TemplateNonAuxBoxModel$MyListDataListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/xchoosers/TemplateNonAuxBoxModel$TemplateContWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/xchoosers/TemplateNonAuxBoxModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/xchoosers/TemplateSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/mit/broad/xbench/xchoosers/TemplateSelectionMultiSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/edu/ucdenver/anschutz/cpbs/costello/rerank/Rerank.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/FeatureAnnotatorPanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/FeatureAnnotatorPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/FeatureClassEditor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/FeatureClassEditor$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/FeatureClassEditor$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/FeatureClassEditor$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/FeatureClassEditor$MyClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/FeatureClassEditor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SampleAnnotatorPanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SampleAnnotatorPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SampleClassEditor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SampleClassEditor$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SampleClassEditor$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SampleClassEditor$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SampleClassEditor$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SampleClassEditor$ClassGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SampleClassEditor$MyClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SampleClassEditor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SetAnnotator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SetAnnotator$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SetAnnotator$FeatureRenderer$MyIcon.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SetAnnotator$FeatureRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SetAnnotator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SetAnnotatorModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SparseClassVector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/annotation/SparseClassVectorListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/expr/ExpressionConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/expr/ExpressionData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/expr/IExpressionData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/expr/IMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/expr/MetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/expr/Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/matrix/ClassVector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/matrix/DoubleMatrix2D.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/matrix/IExpressionDataUtil$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/matrix/IExpressionDataUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/data/matrix/ObjectMatrix2D.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/GeneHistogram$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/GeneHistogram$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/GeneHistogram$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/GeneHistogram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/GeneSetSimilarityPanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/GeneSetSimilarityPanel$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/GeneSetSimilarityPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/HistogramDataset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/JaccardHistogram$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/JaccardHistogram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/LeadingEdgePanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/LeadingEdgePanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/ViewAndSearchComponent$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/ViewAndSearchComponent$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/ViewAndSearchComponent$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/ViewAndSearchComponent$ControlPanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/ViewAndSearchComponent$ControlPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/ViewAndSearchComponent$TableSelectionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/ViewAndSearchComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/gsea/XToolsMessageHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/ColorScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/GradientColorScheme$Legend.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/GradientColorScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$OptionsDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$OptionsDialog$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$OptionsDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$SaveDataset$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$SaveDataset$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent$SaveDataset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapPanel$ToolTipProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/HeatMapPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/LegendPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/PixelConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/RowColorScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/image/DisplaySettings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/image/FeatureAnnotator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/image/HeatMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/image/HeatMapHeader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/heatmap/image/SampleAnnotator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/AbstractReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/FeatureListReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/IOUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/ImageUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/expr/IExpressionDataWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/expr/cls/ClsParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/expr/cls/ClsReader$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/expr/cls/ClsReader$MyHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/expr/cls/ClsReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/expr/cls/IClsHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/expr/gct/GctWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/io/expr/res/ResWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/AbstractPlotMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/FileMenu$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/FileMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/FindAction$FindModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/FindAction$IExpressionDataModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/FindAction$SearchDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/FindAction$SearchDialog$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/FindAction$SearchDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/FindAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/GPMenuBar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/PlotAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/ViewMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeFileMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeMenuBar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreePrintAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeResetPlotAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeSaveImageAction$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeSaveImageAction$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeSaveImageAction$SaveImageFileFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeSaveImageAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeViewMenu$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeViewMenu$PlotOptionsAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeViewMenu$ZoomInAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeViewMenu$ZoomOutAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/menu/jfree/JFreeViewMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/module/VisualizerUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/plot/ProfilePlot$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/plot/ProfilePlot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/table/GPTable$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/table/GPTable$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/table/GPTable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/uiutil/CenteredDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/uiutil/FTPFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/uiutil/FTPList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/uiutil/FileChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/uiutil/OS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/uiutil/UIUtil$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/uiutil/UIUtil$DefaultMessageHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/uiutil/UIUtil$MessageHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/org/genepattern/uiutil/UIUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/api/frameworks/AbstractActionLookup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/api/frameworks/WorkspaceToolBar$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/api/frameworks/WorkspaceToolBar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/api/frameworks/fiji/JideWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/api/frameworks/fiji/StatusBarJideImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/api/frameworks/fiji/StatusBarJideImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/api/frameworks/fiji/WindowManagerImplJideTabbedPane.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/api/vtools/ParamSetFormForAFew$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/api/vtools/ParamSetFormForAFew.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/api/vtools/viewers/VizFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/GseaAppConf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/GseaFileFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/GseaPreferencesDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/GseaPreferencesDialog$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/GseaPreferencesDialog$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/GseaPreferencesDialog$FirebirdOptionPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/GseaPreferencesDialog$FirebirdOptionPage_alg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/GseaPreferencesDialog$FirebirdOptionPage_general.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/GseaPreferencesDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/GseaWebResources.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xapps/gsea/VdbManagerForGsea.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/AbstractTool$Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/AbstractTool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/DefaultReport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/ReportBlocks$SimpleBlockListing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/ReportBlocks.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/Tool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/ToolCategory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/XToolsApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/AbstractObjectChooserParam$MyActionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/AbstractObjectChooserParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/AbstractParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/BadParamException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/BooleanParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ChipChooserMultiParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ChipOptParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ChooserHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/DataFormatAbstractParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/DatasetReqdParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/DirParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/FeatureSpaceReqdParam$MyListRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/FeatureSpaceReqdParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/FileParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/GeneSetMatrixChooserAbstractParam$GeneSetsFromFTPSiteComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/GeneSetMatrixChooserAbstractParam$GeneSetsFromFTPSiteRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/GeneSetMatrixChooserAbstractParam$GeneSetsStruc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/GeneSetMatrixChooserAbstractParam$MSigDBFilenameParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/GeneSetMatrixChooserAbstractParam$MyPobActionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/GeneSetMatrixChooserAbstractParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/GeneSetMatrixFormatParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/GeneSetMatrixMultiChooserParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/GeneSetScoringTableReqdParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/GuiParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/IntegerParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/MetricParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/MissingReqdParamException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ModeReqdParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/NormModeReqdParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/OrderParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/Param$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/Param$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/Param.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ParamComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ParamFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ParamHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ParamHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ParamSet$FoundMissingFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ParamSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/PermuteTypeChooserParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/PobParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/RandomSeedTypeParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/RankedListReqdParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ReportCacheChooserParam$MyActionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ReportCacheChooserParam$MyListRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ReportCacheChooserParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ReportDirParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ReportLabelParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/SortParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/StringChooserAbstractParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/StringInputParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/StringMultiChooserParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/StringMultiInputParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/StringReqdParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/TemplateRandomizerTypeParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/ToolParamSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/WChipChooserAbstractParam$ChipListRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/WChipChooserAbstractParam$MyPobActionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/WChipChooserAbstractParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/WChipChooserUI$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/WChipChooserUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/param/WChipChooserWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/ui/GeneSetMatrixChooserUI$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/ui/GeneSetMatrixChooserUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/ui/GeneSetMatrixChooserWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/api/ui/NamedModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/chip2chip/Chip2Chip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/gsea/AbstractGseaTool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/gsea/GseaPreranked.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsearerank/target/classes/xtools/munge/CollapseDataset.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gsearerank_script.sh" afterPath="$PROJECT_DIR$/gsearerank_script.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Test/Input/affy_anno_ALL.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Input/Main_run_configurations_arguments.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/App.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/edu/ucdenver/gsearerank/AppTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Input/test.gmt" afterPath="$PROJECT_DIR$/Data/Test/Input/test.gmt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Input/test.rnk" afterPath="$PROJECT_DIR$/Data/Test/Input/test.rnk" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Input/test_anno.csv" afterPath="$PROJECT_DIR$/Data/Test/Input/test_anno.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Input/test_filter.csv" afterPath="$PROJECT_DIR$/Data/Test/Input/test_filter.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gsearerank_script.sh" afterPath="$PROJECT_DIR$/Scripts/gsearerank_script.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/hpl_batch_gsea.sh" afterPath="$PROJECT_DIR$/Scripts/hpl_batch_gsea.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/GSEA_Rerank_jar/GSEA_Rerank.jar" afterPath="$PROJECT_DIR$/artifacts/GSEA_Rerank_jar/GSEA_Rerank.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/ucdenver/gsearerank/GseaPreranked_Rerank.class" afterPath="$PROJECT_DIR$/target/classes/edu/ucdenver/gsearerank/GseaPreranked_Rerank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GSEA_Rerank.iml" afterPath="$PROJECT_DIR$/GSEA_Rerank.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/GseaPreranked_Rerank.java" afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/GseaPreranked_Rerank.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -931,27 +34,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="GseaPreranked_Rerank.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/GseaPreranked_Rerank.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="gsearerank_script.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gsearerank_script.sh">
+        <entry file="file://$PROJECT_DIR$/Scripts/gsearerank_script.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="175">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/helper.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="54" lean-forward="false" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -966,16 +124,36 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/ucdenver/GeneSetGenerators_Rerank.java" />
-        <option value="$PROJECT_DIR$/gsearerank_script.sh" />
         <option value="$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/GseaPreranked_Rerank.java" />
+        <option value="$PROJECT_DIR$/GSEARerank_Website/index.html" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/rerank.jsp" />
+        <option value="$PROJECT_DIR$/web/helper.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/TestBean.java" />
+        <option value="$PROJECT_DIR$/web/main.jsp" />
+        <option value="$PROJECT_DIR$/gsearerank_script.sh" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -1007,23 +185,14 @@
     <panes>
       <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="GSEA_Rerank" type="b2602c69:ProjectViewProjectNode" />
               <item name="GSEARerank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GSEA_Rerank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GSEARerank" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GSEA_Rerank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GSEARerank" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="GSEA_Rerank_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GSEA_Rerank" type="b2602c69:ProjectViewProjectNode" />
@@ -1043,12 +212,29 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GSEA_Rerank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GSEARerank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gsearerank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GSEA_Rerank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GSEARerank" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GSEA_Rerank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GSEARerank" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1057,13 +243,17 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/gsea-3.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GSEARerank_Website" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pielk\Google Drive\Costello Lab\GSEARerank\Scripts" />
+      <recent name="C:\Users\pielk\Google Drive\Costello Lab\GSEARerank\Data\Test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pielk\Google Drive\Costello Lab\GSEARerank\src\main\java\edu\ucdenver" />
     </key>
@@ -1080,7 +270,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.gsearerank_script.sh">
+  <component name="RunManager" selected="Tomcat Server.main.jsp">
+    <configuration name="GSEA_Website_Test" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="GSEA_Rerank:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_GSEA_Rerank" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53892" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="GSEA_Rerank:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1219,9 +481,88 @@
       <module name="GSEA_Rerank" />
       <envs />
     </configuration>
+    <configuration name="main.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/main.jsp" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <deployment>
+        <artifact name="GSEA_Rerank:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="main_jsp_GSEA_Rerank" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54684" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="GSEA_Rerank:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.GSEA_Website_Test" />
+      <item index="1" class="java.lang.String" itemvalue="Bash.gsearerank_script.sh" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.main.jsp" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Bash.gsearerank_script.sh" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.main.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="Bash.gsearerank_script.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -1236,44 +577,48 @@
       <option name="presentableId" value="Default" />
       <updated>1503186324707</updated>
       <workItem from="1503186331056" duration="877000" />
-      <workItem from="1503187242157" duration="1163000" />
+      <workItem from="1503187242157" duration="2510000" />
+      <workItem from="1503345462716" duration="833000" />
+      <workItem from="1503348494253" duration="6499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2040000" />
+    <option name="totallyTimeSpent" value="10719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1931" y="-413" width="1942" height="1102" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25405404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26324326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1287,13 +632,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/GseaPreranked_Rerank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1210#1266#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/gsearerank_script.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/GseaPreranked_Rerank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1210#1266#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/gsearerank_script.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/GeneSetGenerators_Rerank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1301,11 +681,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4075">
           <caret line="192" column="12" lean-forward="false" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1210#1266#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gsearerank_script.sh">
+    <entry file="file://$PROJECT_DIR$/Scripts/gsearerank_script.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1325,25 +708,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gsearerank_script.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/GseaPreranked_Rerank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="775">
+          <caret line="220" column="40" lean-forward="false" selection-start-line="220" selection-start-column="40" selection-end-line="220" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1210#1266#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GSEARerank_Website/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/helper.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="54" lean-forward="false" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/gsearerank_script.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/ucdenver/gsearerank/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
