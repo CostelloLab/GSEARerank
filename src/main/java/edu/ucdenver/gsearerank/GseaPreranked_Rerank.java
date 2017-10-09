@@ -301,8 +301,10 @@ public class GseaPreranked_Rerank extends AbstractGseaTool {
         for (CSVRecord var : exp_vars) {
             String var_name = var.get("Var_Name");
             String var_value = var.get("Var_Value");
-            if (! record.get(var_name).equals(var_value)) {
-                get_file = false;
+            if (record.get(var_name) != null) {
+                if (!record.get(var_name).equals(var_value)) {
+                    get_file = false;
+                }
             }
         }
         return get_file;
