@@ -1,5 +1,6 @@
 package edu.ucdenver.gsearerank;
 
+import edu.mit.broad.genome.XLogger;
 import edu.mit.broad.genome.alg.gsea.GeneSetCohortGenerator;
 import edu.mit.broad.genome.math.RandomSeedGenerator;
 import edu.mit.broad.genome.math.RandomSeedGenerators;
@@ -16,6 +17,7 @@ import edu.mit.broad.genome.reports.pages.HtmlReportIndexPage;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.apache.commons.lang.StringUtils;
+import org.apache.log4j.Logger;
 import xtools.api.param.*;
 import xtools.gsea.AbstractGseaTool;
 import xtools.gsea.GseaPreranked;
@@ -25,12 +27,15 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Properties;
 import java.util.stream.Stream;
 
-@SuppressWarnings({"SpellCheckingInspection", "unused"})
+@SuppressWarnings({"SpellCheckingInspection", "unused", "Duplicates"})
 public class GseaPreranked_Rerank extends AbstractGseaTool {
+    private static final Logger log = XLogger.getLogger(GseaPreranked_Rerank.class);
+
     private final RankedListReqdParam fRankedListParam = new RankedListReqdParam();
     private final IntegerParam fShowDetailsForTopXSetsParam;
     private final BooleanParam fMakeZippedReportParam;
@@ -171,6 +176,10 @@ public class GseaPreranked_Rerank extends AbstractGseaTool {
     }
 
     public static void main(String[] args) {
+        // To test
+        // -gmx Data/Test/Input/test.gmt -norm meandiv -nperm 1000 -rnk Data/Test/Input/test.rnk -scoring_scheme weighted -make_sets true -plot_top_x 0 -rnd_seed timestamp -set_max 500 -set_min 15 -zip_report false -out Data/Test/Output/ -gui false -anno Data/Test/Input/test_anno.csv -filt Data/Test/Input/test_filter.csv;
+
+        log.warn(Arrays.toString(args));
 
         String annotation_argument_tag = "-anno";
         String filter_argument_tag = "-filt";
@@ -212,6 +221,12 @@ public class GseaPreranked_Rerank extends AbstractGseaTool {
         }
     }
 
+    public static void run(String[] args, String[] rnkFileNames) {
+        HashMap<String, Integer[]> dist = get_dist(rnkFileNames);
+        GseaPreranked_Rerank tool = new GseaPreranked_Rerank(args, dist);
+        tool_main(tool);
+    }
+
     private static HashMap<String, Integer[]> get_dist(Iterable<CSVRecord> meta_data, Iterable<CSVRecord> exp_vars) {
         HashMap<String, Integer[]> dist = new HashMap<>();
 
@@ -240,6 +255,40 @@ public class GseaPreranked_Rerank extends AbstractGseaTool {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+            }
+        }
+
+        return dist;
+    }
+
+
+    // This function passes a prefiltered list of .rnk files directly
+    private static HashMap<String, Integer[]> get_dist(String[] rnkFileNames) {
+        HashMap<String, Integer[]> dist = new HashMap<>();
+
+
+        for(String rnkFileName: rnkFileNames){
+            try (Stream<String> lines = Files.lines(Paths.get(rnkFileName), Charset.defaultCharset())) {
+                int rank = 1;
+                for (String line : (Iterable<String>) lines::iterator) {
+                    String[] sep_line = line.split("\t");
+                    String gene_name = sep_line[0];
+                    if (dist.get(gene_name) == null) {
+                        Integer[] min_max = new Integer[2];
+                        min_max[0] = Integer.MAX_VALUE;
+                        min_max[1] = Integer.MIN_VALUE;
+                        dist.put(gene_name, min_max);
+                    }
+                    if (dist.get(gene_name)[0] > rank){
+                        dist.get(gene_name)[0] = rank;
+                    }
+                    if (dist.get(gene_name)[1] < rank){
+                        dist.get(gene_name)[1] = rank;
+                    }
+                    rank++;
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
 

@@ -1,3 +1,4 @@
+<%@ page import="java.util.Objects" %>
 <%@ page %>
 
 <html>
@@ -15,24 +16,20 @@
     String filt = request.getParameter("filt");
     String anno = request.getParameter("anno");
 
-    if (anno != null) {
+    if (!Objects.equals(anno, "")) {
         helper.setAnno(anno);
     }
-    if (filt != null) {
+    if (!Objects.equals(filt, "")) {
         helper.setFilt(filt);
     }
-    if (gmx != null) {
+    if (!Objects.equals(gmx, "")) {
         helper.setGmx(gmx);
     }
-    if (rnk != null) {
+    if (!Objects.equals(rnk, "")) {
         helper.setRnk(rnk);
     }
 
-    helper.run();
-
-    for (String arg : helper.getArgs()) {
-        out.println(arg);
-    }
+    out.println(helper.run());
 %>
 
 <jsp:getProperty name="helper" property="args" />

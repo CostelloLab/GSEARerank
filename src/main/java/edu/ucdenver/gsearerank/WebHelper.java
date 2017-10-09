@@ -1,10 +1,13 @@
 package edu.ucdenver.gsearerank;
 
-import javax.servlet.http.HttpServlet;
-import java.util.Arrays;
+import edu.mit.broad.genome.XLogger;
+import org.apache.log4j.Logger;
 
 @SuppressWarnings("unused")
 public class WebHelper {
+
+    private Logger log = XLogger.getLogger(WebHelper.class);
+
     private String anno;
     private String filt;
     private String gmx;
@@ -21,6 +24,11 @@ public class WebHelper {
     private String out;
     private String gui;
 
+    public void setRnkFileNames(String[] rnkFileNames) {
+        this.rnkFileNames = rnkFileNames;
+    }
+
+    private String[] rnkFileNames;
     private String[] args;
 
     public WebHelper() {
@@ -37,22 +45,25 @@ public class WebHelper {
         set_max = "500";
         set_min = "15";
         zip_report = "false";
-        out = "C:/Users/pielk/Google Drive/Costello Lab/GSEARerank/Data/Test/Output";
+        out = "C:/Users/pielk/Google Drive/Costello Lab/GSEARerank/Data/TesOutput";
         gui = "false";
         args = new String[30];
+        rnkFileNames = new String[0];
     }
 
     public String[] getArgs() {
         return args;
     }
 
-    public void run(){
+    public String run(){
 
         int i = 0;
-        args[i++] = "-anno";
-        args[i++] = anno;
-        args[i++] = "-filt";
-        args[i++] = filt;
+        if(rnkFileNames.length == 0) {
+            args[i++] = "-anno";
+            args[i++] = anno;
+            args[i++] = "-filt";
+            args[i++] = filt;
+        }
         args[i++] = "-gmx";
         args[i++] = gmx;
         args[i++] = "-norm";
@@ -75,13 +86,19 @@ public class WebHelper {
         args[i++] = set_min;
         args[i++] = "-zip_report";
         args[i++] = zip_report;
-        args[i++] = "-out";
-        args[i++] = out;
+//        args[i++] = "-out";
+//        args[i++] = out;
         args[i++] = "-gui";
         args[i] = gui;
 
-//        GseaPreranked_Rerank.main(args);
-
+        if(rnkFileNames.length == 0) {
+            log.warn("Using command line implementation");
+            GseaPreranked_Rerank.main(args);
+        } else {
+            log.warn("Using web app implementation");
+            GseaPreranked_Rerank.run(args, rnkFileNames);
+        }
+        return "Done";
     }
 
 
@@ -203,5 +220,10 @@ public class WebHelper {
 
     public void setGui(String gui) {
         this.gui = gui;
+    }
+
+    public static void main(String[] args) {
+        WebHelper helper = new WebHelper();
+        helper.run();
     }
 }
