@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/GSEA_with_Reranking/src/rerank/Main.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="rerank.Main"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-gmx GSEA_input_files/test.gmt&#13;&#10;-rnk GSEA_input_files/test.rnk&#13;&#10;-out GSEA_output_files/&#13;&#10;-norm meandiv&#13;&#10;-nperm 1000&#13;&#10;-scoring_scheme weighted&#13;&#10;-make_sets true&#13;&#10;-plot_top_x 0&#13;&#10;-rnd_seed timestamp&#13;&#10;-set_max 500&#13;&#10;-set_min 15&#13;&#10;-zip_report false&#13;&#10;-gui false"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="GSEA_with_Reranking"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\Harrison\Google Drive\Costello Lab\GSEARerank"/>
+</launchConfiguration>

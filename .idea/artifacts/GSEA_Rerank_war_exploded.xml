@@ -7,6 +7,13 @@
         <element id="directory" name="classes">
           <element id="module-output" name="GSEA_Rerank" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="gsea-3.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-csv:1.4" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: javax.servlet:jsp-api:2.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+        </element>
       </element>
     </root>
   </artifact>

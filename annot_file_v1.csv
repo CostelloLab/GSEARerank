@@ -1,0 +1,444 @@
+Id,Series,Treatment,Control,Platform,ChipFile,Cell_Line,Drug,CID,Dose,Time,Curator,File_Name
+1,GSE10311,GSM260323,GSM260305,GPL570,CEL,Missing,dexamethasone,0,0,0,Rani Powers,Input/rnk_files/GSE10311_DEG_Expt1_Control_vs_Group1_gene.rnk
+2,GSE11352,GSM286759,GSM286756,GPL570,CEL,MCF7,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE11352_DEG_Expt3_Control_vs_Group1_gene.rnk
+3,GSE11352,GSM286759,GSM286756,GPL570,CEL,MCF7,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE11352_DEG_Expt1_Control_vs_Group1_gene.rnk
+4,GSE11352,GSM286759,GSM286756,GPL570,CEL,MCF7,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE11352_DEG_Expt2_Control_vs_Group1_gene.rnk
+5,GSE11428,GSM288308,GSM288305,GPL570,CEL,LNCaP,DHT,0,0,0,Rani Powers,Input/rnk_files/GSE11428_DEG_Expt1_Control_vs_Group2_gene.rnk
+6,GSE11428,GSM288311,GSM288305,GPL570,CEL,LNCaP,DHT,0,0,0,Rani Powers,Input/rnk_files/GSE11428_DEG_Expt1_Control_vs_Group1_gene.rnk
+7,GSE11506,GSM289657,GSM289651,GPL570,CEL,MCF7,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE11506_DEG_Expt1_Control_vs_Group1_gene.rnk
+8,GSE11550,GSM290914,GSM290912,GPL570,CEL,294T,elesclomol,0,0,0,Rani Powers,Input/rnk_files/GSE11550_DEG_Expt1_Control_vs_Group1_gene.rnk
+9,GSE11551,GSM290922,GSM290920,GPL570,CEL,294T,elesclomol,0,0,0,Rani Powers,Input/rnk_files/GSE11551_DEG_Expt1_Control_vs_Group1_gene.rnk
+10,GSE11791,GSM298356,GSM298353,GPL570,CEL,MCF7,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE11791_DEG_Expt1_Control_vs_Group1_gene.rnk
+11,GSE11959,GSM302682,GSM302678,GPL570,CEL,SK-N-AS,h10H5,0,0,0,Rani Powers,Input/rnk_files/GSE11959_DEG_Expt1_Control_vs_Group1_gene.rnk
+12,GSE12261,GSM308002,GSM307999,GPL570,CEL,Missing,2-methoxyestradiol,0,0,0,Rani Powers,Input/rnk_files/GSE12261_DEG_Expt2_Control_vs_Group1_gene.rnk
+13,GSE12261,GSM308002,GSM307999,GPL570,CEL,Missing,2-methoxyestradiol,0,0,0,Rani Powers,Input/rnk_files/GSE12261_DEG_Expt1_Control_vs_Group1_gene.rnk
+14,GSE13762,GSM346558,GSM346557,GPL570,CEL,Missing,vitamin D3,0,0,0,Rani Powers,Input/rnk_files/GSE13762_DEG_Expt2_Control_vs_Group1_gene.rnk
+15,GSE13762,GSM346558,GSM346557,GPL570,CEL,Missing,vitamin D3,0,0,0,Rani Powers,Input/rnk_files/GSE13762_DEG_Expt1_Control_vs_Group1_gene.rnk
+16,GSE13987,GSM351402,GSM351401,GPL570,CEL,Missing,rolipram,0,0,0,Rani Powers,Input/rnk_files/GSE13987_DEG_Expt1_Control_vs_Group1_gene.rnk
+17,GSE13987,GSM351402,GSM351401,GPL570,CEL,Missing,rolipram,0,0,0,Rani Powers,Input/rnk_files/GSE13987_DEG_Expt2_Control_vs_Group1_gene.rnk
+18,GSE13987,GSM351402,GSM351401,GPL570,CEL,Missing,rolipram,0,0,0,Rani Powers,Input/rnk_files/GSE13987_DEG_Expt3_Control_vs_Group1_gene.rnk
+19,GSE14986,GSM374135,GSM374138,GPL570,CEL,MCF7,fulvestrant,0,0,0,Rani Powers,Input/rnk_files/GSE14986_DEG_Expt1_Control_vs_Group1_gene.rnk
+20,GSE14986,GSM374135,GSM374138,GPL570,CEL,MCF7,fulvestrant,0,0,0,Rani Powers,Input/rnk_files/GSE14986_DEG_Expt2_Control_vs_Group1_gene.rnk
+21,GSE15389,GSM386225,GSM386250,GPL570,CEL,Missing,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15389_DEG_Expt1_Control_vs_Group2_gene.rnk
+22,GSE15389,GSM386235,GSM386250,GPL570,CEL,Missing,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15389_DEG_Expt1_Control_vs_Group1_gene.rnk
+23,GSE15389,GSM386225,GSM386250,GPL570,CEL,Missing,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15389_DEG_Expt2_Control_vs_Group2_gene.rnk
+24,GSE15389,GSM386235,GSM386250,GPL570,CEL,Missing,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15389_DEG_Expt2_Control_vs_Group1_gene.rnk
+25,GSE15392,GSM386290,GSM386320,GPL570,CEL,DU145,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15392_DEG_Expt2_Control_vs_Group1_gene.rnk
+26,GSE15392,GSM386296,GSM386320,GPL570,CEL,DU145,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15392_DEG_Expt2_Control_vs_Group2_gene.rnk
+27,GSE15392,GSM386306,GSM386320,GPL570,CEL,DU145,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15392_DEG_Expt2_Control_vs_Group3_gene.rnk
+28,GSE15392,GSM386290,GSM386320,GPL570,CEL,DU145,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15392_DEG_Expt3_Control_vs_Group1_gene.rnk
+29,GSE15392,GSM386306,GSM386320,GPL570,CEL,DU145,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15392_DEG_Expt3_Control_vs_Group3_gene.rnk
+30,GSE15392,GSM386296,GSM386320,GPL570,CEL,DU145,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15392_DEG_Expt1_Control_vs_Group2_gene.rnk
+31,GSE15392,GSM386306,GSM386320,GPL570,CEL,DU145,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15392_DEG_Expt1_Control_vs_Group3_gene.rnk
+32,GSE15395,GSM386385,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt1_Control_vs_Group1_gene.rnk
+33,GSE15395,GSM386398,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt1_Control_vs_Group2_gene.rnk
+34,GSE15395,GSM386418,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt1_Control_vs_Group3_gene.rnk
+35,GSE15395,GSM386385,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt2_Control_vs_Group1_gene.rnk
+36,GSE15395,GSM386398,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt2_Control_vs_Group2_gene.rnk
+37,GSE15395,GSM386418,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt2_Control_vs_Group3_gene.rnk
+38,GSE15395,GSM386385,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt4_Control_vs_Group1_gene.rnk
+39,GSE15395,GSM386398,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt4_Control_vs_Group2_gene.rnk
+40,GSE15395,GSM386418,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt4_Control_vs_Group3_gene.rnk
+41,GSE15395,GSM386398,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt3_Control_vs_Group2_gene.rnk
+42,GSE15395,GSM386418,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt3_Control_vs_Group3_gene.rnk
+43,GSE15395,GSM386398,GSM386439,GPL570,CEL,HCT116,R547,0,0,0,Rani Powers,Input/rnk_files/GSE15395_DEG_Expt5_Control_vs_Group2_gene.rnk
+44,GSE15918,GSM399575,GSM399572,GPL570,CEL,H295R,angiotensin II, CP-529414,0,0,0,Rani Powers,Input/rnk_files/GSE15918_DEG_Expt1_Control_vs_Group1_gene.rnk
+45,GSE15918,GSM399578,GSM399572,GPL570,CEL,H295R,angiotensin II, CP-529414,0,0,0,Rani Powers,Input/rnk_files/GSE15918_DEG_Expt1_Control_vs_Group2_gene.rnk
+46,GSE15947,GSM400055,GSM400051,GPL570,CEL,RWPE1,vitamin D3,0,0,0,Rani Powers,Input/rnk_files/GSE15947_DEG_Expt3_Control_vs_Group1_gene.rnk
+47,GSE15947,GSM400055,GSM400051,GPL570,CEL,RWPE1,vitamin D3,0,0,0,Rani Powers,Input/rnk_files/GSE15947_DEG_Expt1_Control_vs_Group1_gene.rnk
+48,GSE15947,GSM400055,GSM400051,GPL570,CEL,RWPE1,vitamin D3,0,0,0,Rani Powers,Input/rnk_files/GSE15947_DEG_Expt2_Control_vs_Group1_gene.rnk
+49,GSE16179,GSM799177,GSM799174,GPL570,CEL,BT474-J4,foretinib,0,0,0,Rani Powers,Input/rnk_files/GSE16179_DEG_Expt1_Control_vs_Group1_gene.rnk
+50,GSE16385,GSM411191,GSM411190,GPL570,CEL,Missing,rosiglitazone,0,0,0,Rani Powers,Input/rnk_files/GSE16385_DEG_Expt1_Control_vs_Group1_gene.rnk
+51,GSE16683,GSM418129,GSM418126,GPL570,CEL,HUVEC,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE16683_DEG_Expt1_Control_vs_Group1_gene.rnk
+52,GSE17044,GSM426521,GSM426518,GPL570,CEL,LNCaP,R1881,0,0,0,Rani Powers,Input/rnk_files/GSE17044_DEG_Expt1_Control_vs_Group1_gene.rnk
+53,GSE18198,GSM455121,GSM455115,GPL570,CEL,KOPT,SAHM1,0,0,0,Rani Powers,Input/rnk_files/GSE18198_DEG_Expt1_Control_vs_Group1_gene.rnk
+54,GSE18198,GSM455121,GSM455115,GPL570,CEL,KOPT,SAHM1,0,0,0,Rani Powers,Input/rnk_files/GSE18198_DEG_Expt2_Control_vs_Group1_gene.rnk
+55,GSE18571,GSM462076,GSM462073,GPL570,CEL,MDA-MB-468,rapamycin,0,0,0,Rani Powers,Input/rnk_files/GSE18571_DEG_Expt1_Control_vs_Group1_gene.rnk
+56,GSE18571,GSM462076,GSM462073,GPL570,CEL,MDA-MB-468,rapamycin,0,0,0,Rani Powers,Input/rnk_files/GSE18571_DEG_Expt2_Control_vs_Group1_gene.rnk
+57,GSE18571,GSM462076,GSM462073,GPL570,CEL,MDA-MB-468,rapamycin,0,0,0,Rani Powers,Input/rnk_files/GSE18571_DEG_Expt3_Control_vs_Group1_gene.rnk
+58,GSE18668,GSM586981,GSM586978,GPL570,CEL,TC-797,trichostatin,0,0,0,Rani Powers,Input/rnk_files/GSE18668_DEG_Expt1_Control_vs_Group1_gene.rnk
+59,GSE18668,GSM586981,GSM586978,GPL570,CEL,TC-797,trichostatin,0,0,0,Rani Powers,Input/rnk_files/GSE18668_DEG_Expt2_Control_vs_Group1_gene.rnk
+60,GSE19510,GSM484816,GSM484752,GPL570,CEL,Missing,benzo[a]pyrene diol epoxide,0,0,0,Rani Powers,Input/rnk_files/GSE19510_DEG_Expt1_Control_vs_Group1_gene.rnk
+61,GSE19510,GSM486528,GSM484752,GPL570,CEL,Missing,benzo[a]pyrene diol epoxide,0,0,0,Rani Powers,Input/rnk_files/GSE19510_DEG_Expt1_Control_vs_Group2_gene.rnk
+62,GSE19510,GSM486531,GSM484752,GPL570,CEL,Missing,benzo[a]pyrene diol epoxide,0,0,0,Rani Powers,Input/rnk_files/GSE19510_DEG_Expt1_Control_vs_Group3_gene.rnk
+63,GSE21270,GSM531795,GSM531792,GPL570,CEL,Missing,MNNG,0,0,0,Rani Powers,Input/rnk_files/GSE21270_DEG_Expt1_Control_vs_Group1_gene.rnk
+64,GSE21270,GSM531795,GSM531792,GPL570,CEL,Missing,MNNG,0,0,0,Rani Powers,Input/rnk_files/GSE21270_DEG_Expt2_Control_vs_Group1_gene.rnk
+65,GSE21270,GSM531795,GSM531792,GPL570,CEL,Missing,MNNG,0,0,0,Rani Powers,Input/rnk_files/GSE21270_DEG_Expt3_Control_vs_Group1_gene.rnk
+66,GSE22606,GSM560831,GSM560828,GPL570,CEL,LNCaP,R1881,0,0,0,Rani Powers,Input/rnk_files/GSE22606_DEG_Expt1_Control_vs_Group1_gene.rnk
+67,GSE23610,GSM578944,GSM578941,GPL570,CEL,MCF7,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE23610_DEG_Expt1_Control_vs_Group1_gene.rnk
+68,GSE23610,GSM578947,GSM578941,GPL570,CEL,MCF7,ferulic acid,0,0,0,Rani Powers,Input/rnk_files/GSE23610_DEG_Expt1_Control_vs_Group2_gene.rnk
+69,GSE23610,GSM578950,GSM578941,GPL570,CEL,MCF7,ferulic acid,0,0,0,Rani Powers,Input/rnk_files/GSE23610_DEG_Expt1_Control_vs_Group3_gene.rnk
+70,GSE23610,GSM578953,GSM578941,GPL570,CEL,MCF7,ferulic acid,0,0,0,Rani Powers,Input/rnk_files/GSE23610_DEG_Expt1_Control_vs_Group4_gene.rnk
+71,GSE23984,GSM590827,GSM590822,GPL570,CEL,Missing,TX527,0,0,0,Rani Powers,Input/rnk_files/GSE23984_DEG_Expt1_Control_vs_Group1_gene.rnk
+72,GSE24468,GSM602697,GSM602707,GPL570,CEL,Missing,R5020,0,0,0,Rani Powers,Input/rnk_files/GSE24468_DEG_Expt1_Control_vs_Group1_gene.rnk
+73,GSE24869,GSM611569,GSM611564,GPL570,CEL,Missing,LTB4,0,0,0,Rani Powers,Input/rnk_files/GSE24869_DEG_Expt1_Control_vs_Group1_gene.rnk
+74,GSE25547,GSM627988,GSM627985,GPL570,CEL,HEPG2,GW7647,0,0,0,Rani Powers,Input/rnk_files/GSE25547_DEG_Expt1_Control_vs_Group1_gene.rnk
+75,GSE25547,GSM627991,GSM627985,GPL570,CEL,HEPG2,GW7647,0,0,0,Rani Powers,Input/rnk_files/GSE25547_DEG_Expt1_Control_vs_Group2_gene.rnk
+76,GSE26351,GSM647153,GSM647150,GPL570,CEL,Missing,BIO,0,0,0,Rani Powers,Input/rnk_files/GSE26351_DEG_Expt1_Control_vs_Group1_gene.rnk
+77,GSE26351,GSM647156,GSM647150,GPL570,CEL,Missing,BMP,0,0,0,Rani Powers,Input/rnk_files/GSE26351_DEG_Expt1_Control_vs_Group2_gene.rnk
+78,GSE26599,GSM654645,GSM654640,GPL570,CEL,HB4a,doxorubicin,0,0,0,Rani Powers,Input/rnk_files/GSE26599_DEG_Expt1_Control_vs_Group1_gene.rnk
+79,GSE26599,GSM654650,GSM654640,GPL570,CEL,HB4a,rapamycin,0,0,0,Rani Powers,Input/rnk_files/GSE26599_DEG_Expt1_Control_vs_Group2_gene.rnk
+80,GSE26599,GSM654655,GSM654640,GPL570,CEL,HB4a,doxorubicin, rapamycin,0,0,0,Rani Powers,Input/rnk_files/GSE26599_DEG_Expt1_Control_vs_Group3_gene.rnk
+81,GSE26599,GSM654645,GSM654640,GPL570,CEL,HB4a,doxorubicin,0,0,0,Rani Powers,Input/rnk_files/GSE26599_DEG_Expt2_Control_vs_Group1_gene.rnk
+82,GSE26599,GSM654650,GSM654640,GPL570,CEL,HB4a,rapamycin,0,0,0,Rani Powers,Input/rnk_files/GSE26599_DEG_Expt2_Control_vs_Group2_gene.rnk
+83,GSE26599,GSM654655,GSM654640,GPL570,CEL,HB4a,doxorubicin, rapamycin,0,0,0,Rani Powers,Input/rnk_files/GSE26599_DEG_Expt2_Control_vs_Group3_gene.rnk
+84,GSE26599,GSM654645,GSM654640,GPL570,CEL,HB4a,doxorubicin,0,0,0,Rani Powers,Input/rnk_files/GSE26599_DEG_Expt3_Control_vs_Group1_gene.rnk
+85,GSE26599,GSM654650,GSM654640,GPL570,CEL,HB4a,rapamycin,0,0,0,Rani Powers,Input/rnk_files/GSE26599_DEG_Expt3_Control_vs_Group2_gene.rnk
+86,GSE26599,GSM654655,GSM654640,GPL570,CEL,HB4a,doxorubicin, rapamycin,0,0,0,Rani Powers,Input/rnk_files/GSE26599_DEG_Expt3_Control_vs_Group3_gene.rnk
+87,GSE28645,GSM709764,GSM709770,GPL570,CEL,LY2,tamoxifen,0,0,0,Rani Powers,Input/rnk_files/GSE28645_DEG_Expt1_Control_vs_Group1_gene.rnk
+88,GSE28995,GSM718404,GSM718401,GPL570,CEL,THP-1,retinoic acid,0,0,0,Rani Powers,Input/rnk_files/GSE28995_DEG_Expt1_Control_vs_Group1_gene.rnk
+89,GSE28995,GSM718407,GSM718401,GPL570,CEL,THP-1,TNF-alpha,0,0,0,Rani Powers,Input/rnk_files/GSE28995_DEG_Expt1_Control_vs_Group2_gene.rnk
+90,GSE28995,GSM718410,GSM718401,GPL570,CEL,THP-1,retinoic acid, TNF-alpha,0,0,0,Rani Powers,Input/rnk_files/GSE28995_DEG_Expt1_Control_vs_Group3_gene.rnk
+91,GSE29828,GSM739148,GSM739151,GPL570,CEL,MV4-11,EPZ004777,0,0,0,Rani Powers,Input/rnk_files/GSE29828_DEG_Expt1_Control_vs_Group1_gene.rnk
+92,GSE29828,GSM739148,GSM739151,GPL570,CEL,MV4-11,EPZ004777,0,0,0,Rani Powers,Input/rnk_files/GSE29828_DEG_Expt2_Control_vs_Group1_gene.rnk
+93,GSE29828,GSM739148,GSM739151,GPL570,CEL,MV4-11,EPZ004777,0,0,0,Rani Powers,Input/rnk_files/GSE29828_DEG_Expt3_Control_vs_Group1_gene.rnk
+94,GSE29828,GSM739148,GSM739151,GPL570,CEL,MV4-11,EPZ004777,0,0,0,Rani Powers,Input/rnk_files/GSE29828_DEG_Expt4_Control_vs_Group1_gene.rnk
+95,GSE29881,GSM740047,GSM740042,GPL570,CEL,HUAEC,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE29881_DEG_Expt1_Control_vs_Group1_gene.rnk
+96,GSE29881,GSM740052,GSM740042,GPL570,CEL,HUAEC,oxLDL,0,0,0,Rani Powers,Input/rnk_files/GSE29881_DEG_Expt1_Control_vs_Group2_gene.rnk
+97,GSE29881,GSM740057,GSM740042,GPL570,CEL,HUAEC,estradiol, oxLDL,0,0,0,Rani Powers,Input/rnk_files/GSE29881_DEG_Expt1_Control_vs_Group3_gene.rnk
+98,GSE33143,GSM820799,GSM820796,GPL570,CEL,DLD1,SAH-BCL9,0,0,0,Rani Powers,Input/rnk_files/GSE33143_DEG_Expt1_Control_vs_Group1_gene.rnk
+99,GSE34331,GSM847514,GSM847511,GPL570,CEL,MCF7,F05,0,0,0,Rani Powers,Input/rnk_files/GSE34331_DEG_Expt1_Control_vs_Group1_gene.rnk
+100,GSE35428,GSM868138,GSM868137,GPL570,CEL,MCF7,4-hydroxytamoxifen,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group1_gene.rnk
+101,GSE35428,GSM868139,GSM868137,GPL570,CEL,MCF7,ICI-182,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group2_gene.rnk
+102,GSE35428,GSM868140,GSM868137,GPL570,CEL,MCF7,bazedoxifene,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group3_gene.rnk
+103,GSE35428,GSM868141,GSM868137,GPL570,CEL,MCF7,raloxifene,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group4_gene.rnk
+104,GSE35428,GSM868142,GSM868137,GPL570,CEL,MCF7,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group5_gene.rnk
+105,GSE35428,GSM868143,GSM868137,GPL570,CEL,MCF7,estradiol, 4-hydroxytamoxifen,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group6_gene.rnk
+106,GSE35428,GSM868144,GSM868137,GPL570,CEL,MCF7,estradiol, ICI-182,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group7_gene.rnk
+107,GSE35428,GSM868145,GSM868137,GPL570,CEL,MCF7,estradiol, bazedoxifene,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group8_gene.rnk
+108,GSE35428,GSM868146,GSM868137,GPL570,CEL,MCF7,estradiol, raloxifene,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group9_gene.rnk
+109,GSE35428,GSM868237,GSM868137,GPL570,CEL,MCF7,lasofoxifene,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group10_gene.rnk
+110,GSE35428,GSM868240,GSM868137,GPL570,CEL,MCF7,estradiol, lasofoxifene,0,0,0,Rani Powers,Input/rnk_files/GSE35428_DEG_Expt1_Control_vs_Group11_gene.rnk
+111,GSE36176,GSM882361,GSM882357,GPL570,CEL,A549,RO4929097 ,0,0,0,Rani Powers,Input/rnk_files/GSE36176_DEG_Expt1_Control_vs_Group1_gene.rnk
+112,GSE36176,GSM882361,GSM882357,GPL570,CEL,A549,RO4929097 ,0,0,0,Rani Powers,Input/rnk_files/GSE36176_DEG_Expt2_Control_vs_Group1_gene.rnk
+113,GSE36176,GSM882361,GSM882357,GPL570,CEL,A549,RO4929097 ,0,0,0,Rani Powers,Input/rnk_files/GSE36176_DEG_Expt3_Control_vs_Group1_gene.rnk
+114,GSE36176,GSM882361,GSM882357,GPL570,CEL,A549,RO4929097 ,0,0,0,Rani Powers,Input/rnk_files/GSE36176_DEG_Expt4_Control_vs_Group1_gene.rnk
+115,GSE39354,GSM966528,GSM966522,GPL570,CEL,VCaP,DHT,0,0,0,Rani Powers,Input/rnk_files/GSE39354_DEG_Expt1_Control_vs_Group1_gene.rnk
+116,GSE39354,GSM966528,GSM966522,GPL570,CEL,VCaP,DHT,0,0,0,Rani Powers,Input/rnk_files/GSE39354_DEG_Expt2_Control_vs_Group1_gene.rnk
+117,GSE40512,GSM995426,GSM995423,GPL570,CEL,KOPTK1,PD0332991,0,0,0,Rani Powers,Input/rnk_files/GSE40512_DEG_Expt1_Control_vs_Group1_gene.rnk
+118,GSE40794,GSM1001760,GSM1001757,GPL570,CEL,LNCaP,DHT,0,0,0,Rani Powers,Input/rnk_files/GSE40794_DEG_Expt1_Control_vs_Group1_gene.rnk
+119,GSE41364,GSM1015544,GSM1015541,GPL570,CEL,HT-29,5-Aza,0,0,0,Rani Powers,Input/rnk_files/GSE41364_DEG_Expt1_Control_vs_Group1_gene.rnk
+120,GSE41364,GSM1015547,GSM1015541,GPL570,CEL,HT-29,5-Aza,0,0,0,Rani Powers,Input/rnk_files/GSE41364_DEG_Expt1_Control_vs_Group2_gene.rnk
+121,GSE42344,GSM1038171,GSM1038168,GPL570,CEL,unknown,JS-K,0,0,0,Rani Powers,Input/rnk_files/GSE42344_DEG_Expt1_Control_vs_Group1_gene.rnk
+122,GSE42344,GSM1038174,GSM1038168,GPL570,CEL,unknown,JS-K,0,0,0,Rani Powers,Input/rnk_files/GSE42344_DEG_Expt1_Control_vs_Group2_gene.rnk
+123,GSE42344,GSM1038177,GSM1038168,GPL570,CEL,unknown,JS-K,0,0,0,Rani Powers,Input/rnk_files/GSE42344_DEG_Expt1_Control_vs_Group3_gene.rnk
+124,GSE43010,GSM1054935,GSM1054944,GPL570,CEL,BJ,vorinostat,0,0,0,Rani Powers,Input/rnk_files/GSE43010_DEG_Expt1_Control_vs_Group1_gene.rnk
+125,GSE43010,GSM1054935,GSM1054944,GPL570,CEL,BJ,vorinostat,0,0,0,Rani Powers,Input/rnk_files/GSE43010_DEG_Expt2_Control_vs_Group1_gene.rnk
+126,GSE43010,GSM1054935,GSM1054944,GPL570,CEL,BJ,vorinostat,0,0,0,Rani Powers,Input/rnk_files/GSE43010_DEG_Expt3_Control_vs_Group1_gene.rnk
+127,GSE43998,GSM1076317,GSM1076321,GPL570,CEL,K562,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE43998_DEG_Expt1_Control_vs_Group1_gene.rnk
+128,GSE44596,GSM1087598,GSM1087601,GPL570,CEL,HCAEC,sparstolonin B,0,0,0,Rani Powers,Input/rnk_files/GSE44596_DEG_Expt1_Control_vs_Group1_gene.rnk
+129,GSE44905,GSM1093799,GSM1093796,GPL570,CEL,LNCaP,DHT,0,0,0,Rani Powers,Input/rnk_files/GSE44905_DEG_Expt1_Control_vs_Group1_gene.rnk
+130,GSE44905,GSM1093802,GSM1093796,GPL570,CEL,LNCaP,enzalutamide,0,0,0,Rani Powers,Input/rnk_files/GSE44905_DEG_Expt1_Control_vs_Group2_gene.rnk
+131,GSE44905,GSM1093805,GSM1093796,GPL570,CEL,LNCaP,enzalutamide,0,0,0,Rani Powers,Input/rnk_files/GSE44905_DEG_Expt1_Control_vs_Group3_gene.rnk
+132,GSE44905,GSM1093808,GSM1093796,GPL570,CEL,LNCaP,DHT, enzalutamide,0,0,0,Rani Powers,Input/rnk_files/GSE44905_DEG_Expt1_Control_vs_Group4_gene.rnk
+133,GSE44905,GSM1093811,GSM1093796,GPL570,CEL,LNCaP,DHT, enzalutamide,0,0,0,Rani Powers,Input/rnk_files/GSE44905_DEG_Expt1_Control_vs_Group5_gene.rnk
+134,GSE45029,GSM1095992,GSM1095989,GPL570,CEL,MCF12A,doxycycline,0,0,0,Rani Powers,Input/rnk_files/GSE45029_DEG_Expt1_Control_vs_Group1_gene.rnk
+135,GSE45197,GSM1098953,GSM1098952,GPL570,CEL,TS603,AGI-5198,0,0,0,Rani Powers,Input/rnk_files/GSE45197_DEG_Expt1_Control_vs_Group1_gene.rnk
+136,GSE45197,GSM1098953,GSM1098952,GPL570,CEL,TS603,AGI-5198,0,0,0,Rani Powers,Input/rnk_files/GSE45197_DEG_Expt2_Control_vs_Group1_gene.rnk
+137,GSE45197,GSM1098978,GSM1098952,GPL570,CEL,TS603,AGI-5198,0,0,0,Rani Powers,Input/rnk_files/GSE45197_DEG_Expt2_Control_vs_Group2_gene.rnk
+138,GSE45417,GSM1103975,GSM1103973,GPL570,CEL,U937,PMA,0,0,0,Rani Powers,Input/rnk_files/GSE45417_DEG_Expt1_Control_vs_Group1_gene.rnk
+139,GSE46924,GSM1141241,GSM1141244,GPL570,CEL,MCF7,E2,0,0,0,Rani Powers,Input/rnk_files/GSE46924_DEG_Expt1_Control_vs_Group1_gene.rnk
+140,GSE4773,GSM107865,GSM107862,GPL570,CEL,SK-N-MC,rotenone,0,0,0,Rani Powers,Input/rnk_files/GSE4773_DEG_Expt1_Control_vs_Group1_gene.rnk
+141,GSE48573,GSM1181390,GSM1181389,GPL570,CEL,Missing,9cis-RA,0,0,0,Rani Powers,Input/rnk_files/GSE48573_DEG_Expt1_Control_vs_Group1_gene.rnk
+142,GSE48573,GSM1181391,GSM1181389,GPL570,CEL,Missing,R-RA,0,0,0,Rani Powers,Input/rnk_files/GSE48573_DEG_Expt1_Control_vs_Group2_gene.rnk
+143,GSE48573,GSM1181392,GSM1181389,GPL570,CEL,Missing,S-RA,0,0,0,Rani Powers,Input/rnk_files/GSE48573_DEG_Expt1_Control_vs_Group3_gene.rnk
+144,GSE48573,GSM1181394,GSM1181389,GPL570,CEL,Missing,RSG,0,0,0,Rani Powers,Input/rnk_files/GSE48573_DEG_Expt1_Control_vs_Group4_gene.rnk
+145,GSE48573,GSM1181395,GSM1181389,GPL570,CEL,Missing,GW1516,0,0,0,Rani Powers,Input/rnk_files/GSE48573_DEG_Expt1_Control_vs_Group5_gene.rnk
+146,GSE48573,GSM1181396,GSM1181389,GPL570,CEL,Missing,GW13965,0,0,0,Rani Powers,Input/rnk_files/GSE48573_DEG_Expt1_Control_vs_Group6_gene.rnk
+147,GSE48573,GSM1181390,GSM1181389,GPL570,CEL,Missing,9cis-RA,0,0,0,Rani Powers,Input/rnk_files/GSE48573_DEG_Expt2_Control_vs_Group1_gene.rnk
+148,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt1_Control_vs_Group1_gene.rnk
+149,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt1_Control_vs_Group2_gene.rnk
+150,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt2_Control_vs_Group1_gene.rnk
+151,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt2_Control_vs_Group2_gene.rnk
+152,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt3_Control_vs_Group1_gene.rnk
+153,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt3_Control_vs_Group2_gene.rnk
+154,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt4_Control_vs_Group1_gene.rnk
+155,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt4_Control_vs_Group2_gene.rnk
+156,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt5_Control_vs_Group1_gene.rnk
+157,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt5_Control_vs_Group2_gene.rnk
+158,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt6_Control_vs_Group1_gene.rnk
+159,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt6_Control_vs_Group2_gene.rnk
+160,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt7_Control_vs_Group1_gene.rnk
+161,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt7_Control_vs_Group2_gene.rnk
+162,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt8_Control_vs_Group1_gene.rnk
+163,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt8_Control_vs_Group2_gene.rnk
+164,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt9_Control_vs_Group1_gene.rnk
+165,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt9_Control_vs_Group2_gene.rnk
+166,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt10_Control_vs_Group1_gene.rnk
+167,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt10_Control_vs_Group2_gene.rnk
+168,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt11_Control_vs_Group1_gene.rnk
+169,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt11_Control_vs_Group2_gene.rnk
+170,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt12_Control_vs_Group1_gene.rnk
+171,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt12_Control_vs_Group2_gene.rnk
+172,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt13_Control_vs_Group1_gene.rnk
+173,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt13_Control_vs_Group2_gene.rnk
+174,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt14_Control_vs_Group1_gene.rnk
+175,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt14_Control_vs_Group2_gene.rnk
+176,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt15_Control_vs_Group1_gene.rnk
+177,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt15_Control_vs_Group2_gene.rnk
+178,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt16_Control_vs_Group1_gene.rnk
+179,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt16_Control_vs_Group2_gene.rnk
+180,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt17_Control_vs_Group1_gene.rnk
+181,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt17_Control_vs_Group2_gene.rnk
+182,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt18_Control_vs_Group1_gene.rnk
+183,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt18_Control_vs_Group2_gene.rnk
+184,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt19_Control_vs_Group1_gene.rnk
+185,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt19_Control_vs_Group2_gene.rnk
+186,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt20_Control_vs_Group1_gene.rnk
+187,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt20_Control_vs_Group2_gene.rnk
+188,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt21_Control_vs_Group1_gene.rnk
+189,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt21_Control_vs_Group2_gene.rnk
+190,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt22_Control_vs_Group1_gene.rnk
+191,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt22_Control_vs_Group2_gene.rnk
+192,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt23_Control_vs_Group1_gene.rnk
+193,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt23_Control_vs_Group2_gene.rnk
+194,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt24_Control_vs_Group1_gene.rnk
+195,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt24_Control_vs_Group2_gene.rnk
+196,GSE50811,GSM1229995,GSM1229992,GPL570,CEL,BT-20,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt25_Control_vs_Group1_gene.rnk
+197,GSE50811,GSM1229998,GSM1229992,GPL570,CEL,BT-20,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50811_DEG_Expt25_Control_vs_Group2_gene.rnk
+198,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt1_Control_vs_Group1_gene.rnk
+199,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt1_Control_vs_Group2_gene.rnk
+200,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt2_Control_vs_Group1_gene.rnk
+201,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt2_Control_vs_Group2_gene.rnk
+202,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt3_Control_vs_Group1_gene.rnk
+203,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt3_Control_vs_Group2_gene.rnk
+204,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt4_Control_vs_Group1_gene.rnk
+205,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt4_Control_vs_Group2_gene.rnk
+206,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt5_Control_vs_Group1_gene.rnk
+207,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt5_Control_vs_Group2_gene.rnk
+208,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt6_Control_vs_Group1_gene.rnk
+209,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt6_Control_vs_Group2_gene.rnk
+210,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt7_Control_vs_Group1_gene.rnk
+211,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt7_Control_vs_Group2_gene.rnk
+212,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt8_Control_vs_Group1_gene.rnk
+213,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt8_Control_vs_Group2_gene.rnk
+214,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt9_Control_vs_Group1_gene.rnk
+215,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt9_Control_vs_Group2_gene.rnk
+216,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt10_Control_vs_Group1_gene.rnk
+217,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt10_Control_vs_Group2_gene.rnk
+218,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt11_Control_vs_Group1_gene.rnk
+219,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt11_Control_vs_Group2_gene.rnk
+220,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt12_Control_vs_Group1_gene.rnk
+221,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt12_Control_vs_Group2_gene.rnk
+222,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt13_Control_vs_Group1_gene.rnk
+223,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt13_Control_vs_Group2_gene.rnk
+224,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt14_Control_vs_Group2_gene.rnk
+225,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt15_Control_vs_Group1_gene.rnk
+226,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt15_Control_vs_Group2_gene.rnk
+227,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt16_Control_vs_Group1_gene.rnk
+228,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt16_Control_vs_Group2_gene.rnk
+229,GSE50830,GSM1230536,GSM1230533,GPL570,CEL,HEC-88nu,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt17_Control_vs_Group1_gene.rnk
+230,GSE50830,GSM1230539,GSM1230533,GPL570,CEL,HEC-88nu,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50830_DEG_Expt17_Control_vs_Group2_gene.rnk
+231,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt1_Control_vs_Group1_gene.rnk
+232,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt1_Control_vs_Group2_gene.rnk
+233,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt2_Control_vs_Group1_gene.rnk
+234,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt2_Control_vs_Group2_gene.rnk
+235,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt3_Control_vs_Group1_gene.rnk
+236,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt3_Control_vs_Group2_gene.rnk
+237,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt4_Control_vs_Group1_gene.rnk
+238,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt4_Control_vs_Group2_gene.rnk
+239,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt5_Control_vs_Group1_gene.rnk
+240,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt5_Control_vs_Group2_gene.rnk
+241,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt6_Control_vs_Group1_gene.rnk
+242,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt6_Control_vs_Group2_gene.rnk
+243,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt7_Control_vs_Group1_gene.rnk
+244,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt7_Control_vs_Group2_gene.rnk
+245,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt8_Control_vs_Group1_gene.rnk
+246,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt8_Control_vs_Group2_gene.rnk
+247,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt9_Control_vs_Group1_gene.rnk
+248,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt9_Control_vs_Group2_gene.rnk
+249,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt10_Control_vs_Group1_gene.rnk
+250,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt10_Control_vs_Group2_gene.rnk
+251,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt11_Control_vs_Group1_gene.rnk
+252,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt11_Control_vs_Group2_gene.rnk
+253,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt12_Control_vs_Group1_gene.rnk
+254,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt12_Control_vs_Group2_gene.rnk
+255,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt13_Control_vs_Group1_gene.rnk
+256,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt13_Control_vs_Group2_gene.rnk
+257,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt14_Control_vs_Group1_gene.rnk
+258,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt14_Control_vs_Group2_gene.rnk
+259,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt15_Control_vs_Group1_gene.rnk
+260,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt15_Control_vs_Group2_gene.rnk
+261,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt16_Control_vs_Group1_gene.rnk
+262,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt16_Control_vs_Group2_gene.rnk
+263,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt17_Control_vs_Group1_gene.rnk
+264,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt17_Control_vs_Group2_gene.rnk
+265,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt18_Control_vs_Group1_gene.rnk
+266,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt18_Control_vs_Group2_gene.rnk
+267,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt19_Control_vs_Group1_gene.rnk
+268,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt19_Control_vs_Group2_gene.rnk
+269,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt20_Control_vs_Group1_gene.rnk
+270,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt20_Control_vs_Group2_gene.rnk
+271,GSE50831,GSM1230704,GSM1230701,GPL570,CEL,SK-OV-3,eribulin,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt21_Control_vs_Group1_gene.rnk
+272,GSE50831,GSM1230707,GSM1230701,GPL570,CEL,SK-OV-3,paclitaxel,0,0,0,Rani Powers,Input/rnk_files/GSE50831_DEG_Expt21_Control_vs_Group2_gene.rnk
+273,GSE5145,GSM116101,GSM116104,GPL570,CEL,Missing,vitamin D,0,0,0,Rani Powers,Input/rnk_files/GSE5145_DEG_Expt1_Control_vs_Group1_gene.rnk
+274,GSE51524,GSM1246888,GSM1246885,GPL570,CEL,LNCaP,DHT,0,0,0,Rani Powers,Input/rnk_files/GSE51524_DEG_Expt1_Control_vs_Group1_gene.rnk
+275,GSE52087,GSM1259206,GSM1259202,GPL570,CEL,K562,mesoporphyrine,0,0,0,Rani Powers,Input/rnk_files/GSE52087_DEG_Expt1_Control_vs_Group1_gene.rnk
+276,GSE52087,GSM1259210,GSM1259202,GPL570,CEL,K562,mesoporphyrine,0,0,0,Rani Powers,Input/rnk_files/GSE52087_DEG_Expt1_Control_vs_Group2_gene.rnk
+277,GSE53183,GSM1286097,GSM1286112,GPL570,CEL,HEK293,doxycyline,0,0,0,Rani Powers,Input/rnk_files/GSE53183_DEG_Expt1_Control_vs_Group1_gene.rnk
+278,GSE5679,GSM132921,GSM132919,GPL570,CEL,Missing,RSG,0,0,0,Rani Powers,Input/rnk_files/GSE5679_DEG_Expt1_Control_vs_Group1_gene.rnk
+279,GSE5679,GSM132922,GSM132919,GPL570,CEL,Missing,AM580,0,0,0,Rani Powers,Input/rnk_files/GSE5679_DEG_Expt1_Control_vs_Group2_gene.rnk
+280,GSE57728,GSM1387688,GSM1387694,GPL570,CEL,AsPC1,ICG-001,0,0,0,Rani Powers,Input/rnk_files/GSE57728_DEG_Expt1_Control_vs_Group1_gene.rnk
+281,GSE57728,GSM1387688,GSM1387694,GPL570,CEL,AsPC1,ICG-001,0,0,0,Rani Powers,Input/rnk_files/GSE57728_DEG_Expt2_Control_vs_Group1_gene.rnk
+282,GSE59228,GSM1430998,GSM1430994,GPL570,CEL,MCF10A,2DG,0,0,0,Rani Powers,Input/rnk_files/GSE59228_DEG_Expt1_Control_vs_Group1_gene.rnk
+283,GSE59228,GSM1430998,GSM1430994,GPL570,CEL,MCF10A,2DG,0,0,0,Rani Powers,Input/rnk_files/GSE59228_DEG_Expt2_Control_vs_Group1_gene.rnk
+284,GSE60722,GSM1486299,GSM1486305,GPL570,CEL,LNCaP,bicalutamide,0,0,0,Rani Powers,Input/rnk_files/GSE60722_DEG_Expt1_Control_vs_Group1_gene.rnk
+285,GSE62203,GSM1522143,GSM1522139,GPL570,CEL,Missing,glucose, endothelin-1, cortisol,0,0,0,Rani Powers,Input/rnk_files/GSE62203_DEG_Expt1_Control_vs_Group1_gene.rnk
+286,GSE63009,GSM1537949,GSM1537946,GPL570,CEL,Missing,aledronate, risedronate,0,0,0,Rani Powers,Input/rnk_files/GSE63009_DEG_Expt1_Control_vs_Group1_gene.rnk
+287,GSE63009,GSM1537952,GSM1537946,GPL570,CEL,Missing,aledronate, risedronate,0,0,0,Rani Powers,Input/rnk_files/GSE63009_DEG_Expt1_Control_vs_Group2_gene.rnk
+288,GSE64480,GSM1572094,GSM1572093,GPL570,CEL,Missing,TLR7 agonist, TLR8 agonist,0,0,0,Rani Powers,Input/rnk_files/GSE64480_DEG_Expt1_Control_vs_Group1_gene.rnk
+289,GSE64480,GSM1572095,GSM1572093,GPL570,CEL,Missing,TLR7 agonist, TLR8 agonist,0,0,0,Rani Powers,Input/rnk_files/GSE64480_DEG_Expt1_Control_vs_Group2_gene.rnk
+290,GSE65816,GSM1606703,GSM1606700,GPL570,CEL,OCI-Ly7,ibrutinib,0,0,0,Rani Powers,Input/rnk_files/GSE65816_DEG_Expt1_Control_vs_Group1_gene.rnk
+291,GSE65816,GSM1606706,GSM1606700,GPL570,CEL,OCI-Ly7,ibrutinib,0,0,0,Rani Powers,Input/rnk_files/GSE65816_DEG_Expt1_Control_vs_Group2_gene.rnk
+292,GSE65816,GSM1606709,GSM1606700,GPL570,CEL,OCI-Ly7,psl-123,0,0,0,Rani Powers,Input/rnk_files/GSE65816_DEG_Expt1_Control_vs_Group3_gene.rnk
+293,GSE67326,GSM1644888,GSM1644884,GPL570,CEL,Missing,myostatin,0,0,0,Rani Powers,Input/rnk_files/GSE67326_DEG_Expt1_Control_vs_Group1_gene.rnk
+294,GSE67326,GSM1644892,GSM1644884,GPL570,CEL,Missing,myostatin,0,0,0,Rani Powers,Input/rnk_files/GSE67326_DEG_Expt1_Control_vs_Group2_gene.rnk
+295,GSE67326,GSM1644896,GSM1644884,GPL570,CEL,Missing,myostatin,0,0,0,Rani Powers,Input/rnk_files/GSE67326_DEG_Expt1_Control_vs_Group3_gene.rnk
+296,GSE67326,GSM1644888,GSM1644884,GPL570,CEL,Missing,myostatin,0,0,0,Rani Powers,Input/rnk_files/GSE67326_DEG_Expt2_Control_vs_Group1_gene.rnk
+297,GSE67326,GSM1644892,GSM1644884,GPL570,CEL,Missing,myostatin,0,0,0,Rani Powers,Input/rnk_files/GSE67326_DEG_Expt2_Control_vs_Group2_gene.rnk
+298,GSE67326,GSM1644896,GSM1644884,GPL570,CEL,Missing,myostatin,0,0,0,Rani Powers,Input/rnk_files/GSE67326_DEG_Expt2_Control_vs_Group3_gene.rnk
+299,GSE68527,GSM1674434,GSM1674439,GPL570,CEL,THP1,copaxone,0,0,0,Rani Powers,Input/rnk_files/GSE68527_DEG_Expt3_Control_vs_Group1_gene.rnk
+300,GSE68527,GSM1674445,GSM1674439,GPL570,CEL,THP1,probioglat,0,0,0,Rani Powers,Input/rnk_files/GSE68527_DEG_Expt3_Control_vs_Group2_gene.rnk
+301,GSE68527,GSM1674434,GSM1674439,GPL570,CEL,THP1,copaxone,0,0,0,Rani Powers,Input/rnk_files/GSE68527_DEG_Expt1_Control_vs_Group1_gene.rnk
+302,GSE68527,GSM1674445,GSM1674439,GPL570,CEL,THP1,probioglat,0,0,0,Rani Powers,Input/rnk_files/GSE68527_DEG_Expt1_Control_vs_Group2_gene.rnk
+303,GSE68527,GSM1674434,GSM1674439,GPL570,CEL,THP1,copaxone,0,0,0,Rani Powers,Input/rnk_files/GSE68527_DEG_Expt2_Control_vs_Group1_gene.rnk
+304,GSE68527,GSM1674445,GSM1674439,GPL570,CEL,THP1,probioglat,0,0,0,Rani Powers,Input/rnk_files/GSE68527_DEG_Expt2_Control_vs_Group2_gene.rnk
+305,GSE69330,GSM1697889,GSM1697883,GPL570,CEL,LNCaP,DHT,0,0,0,Rani Powers,Input/rnk_files/GSE69330_DEG_Expt1_Control_vs_Group1_gene.rnk
+306,GSE69346,GSM1698322,GSM1698317,GPL570,CEL,Missing,givinostat,0,0,0,Rani Powers,Input/rnk_files/GSE69346_DEG_Expt1_Control_vs_Group1_gene.rnk
+307,GSE69346,GSM1698322,GSM1698317,GPL570,CEL,Missing,givinostat,0,0,0,Rani Powers,Input/rnk_files/GSE69346_DEG_Expt2_Control_vs_Group1_gene.rnk
+308,GSE69346,GSM1698322,GSM1698317,GPL570,CEL,Missing,givinostat,0,0,0,Rani Powers,Input/rnk_files/GSE69346_DEG_Expt3_Control_vs_Group1_gene.rnk
+309,GSE6962,GSM160499,GSM160486,GPL570,CEL,A549,PCI-5002,0,0,0,Rani Powers,Input/rnk_files/GSE6962_DEG_Expt1_Control_vs_Group1_gene.rnk
+310,GSE6962,GSM160510,GSM160486,GPL570,CEL,A549,PCI-5002,0,0,0,Rani Powers,Input/rnk_files/GSE6962_DEG_Expt1_Control_vs_Group2_gene.rnk
+311,GSE69698,GSM1707637,GSM1707636,GPL570,CEL,Missing,vitamin D,0,0,0,Rani Powers,Input/rnk_files/GSE69698_DEG_Expt1_Control_vs_Group1_gene.rnk
+312,GSE71127,GSM1827623,GSM1827618,GPL570,CEL,UKN1?,MeHg,0,0,0,Rani Powers,Input/rnk_files/GSE71127_DEG_Expt1_Control_vs_Group1_gene.rnk
+313,GSE71127,GSM1827623,GSM1827618,GPL570,CEL,UKN1?,MeHg,0,0,0,Rani Powers,Input/rnk_files/GSE71127_DEG_Expt2_Control_vs_Group1_gene.rnk
+314,GSE71127,GSM1827623,GSM1827618,GPL570,CEL,UKN1?,MeHg,0,0,0,Rani Powers,Input/rnk_files/GSE71127_DEG_Expt3_Control_vs_Group1_gene.rnk
+315,GSE71347,GSM1832845,GSM1832842,GPL570,CEL,BT-474,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE71347_DEG_Expt1_Control_vs_Group1_gene.rnk
+316,GSE71347,GSM1832845,GSM1832842,GPL570,CEL,BT-474,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE71347_DEG_Expt2_Control_vs_Group1_gene.rnk
+317,GSE71996,GSM1849427,GSM1849426,GPL570,CEL,Missing,diphenylcyclopropenone,0,0,0,Rani Powers,Input/rnk_files/GSE71996_DEG_Expt1_Control_vs_Group1_gene.rnk
+318,GSE71996,GSM1849428,GSM1849426,GPL570,CEL,Missing,diphenylcyclopropenone,0,0,0,Rani Powers,Input/rnk_files/GSE71996_DEG_Expt1_Control_vs_Group2_gene.rnk
+319,GSE71996,GSM1849429,GSM1849426,GPL570,CEL,Missing,diphenylcyclopropenone,0,0,0,Rani Powers,Input/rnk_files/GSE71996_DEG_Expt1_Control_vs_Group3_gene.rnk
+320,GSE71996,GSM1849430,GSM1849426,GPL570,CEL,Missing,diphenylcyclopropenone,0,0,0,Rani Powers,Input/rnk_files/GSE71996_DEG_Expt1_Control_vs_Group4_gene.rnk
+321,GSE71996,GSM1849431,GSM1849426,GPL570,CEL,Missing,diphenylcyclopropenone,0,0,0,Rani Powers,Input/rnk_files/GSE71996_DEG_Expt1_Control_vs_Group5_gene.rnk
+322,GSE71996,GSM1849432,GSM1849426,GPL570,CEL,Missing,diphenylcyclopropenone,0,0,0,Rani Powers,Input/rnk_files/GSE71996_DEG_Expt1_Control_vs_Group6_gene.rnk
+323,GSE72320,GSM1859939,GSM1859936,GPL570,CEL,MDA231,ETX,0,0,0,Rani Powers,Input/rnk_files/GSE72320_DEG_Expt1_Control_vs_Group1_gene.rnk
+324,GSE74000,GSM1907897,GSM1907900,GPL570,CEL,hSKP-HPC,acetaminophen,0,0,0,Rani Powers,Input/rnk_files/GSE74000_DEG_Expt1_Control_vs_Group1_gene.rnk
+325,GSE74000,GSM1907897,GSM1907900,GPL570,CEL,hSKP-HPC,acetaminophen,0,0,0,Rani Powers,Input/rnk_files/GSE74000_DEG_Expt2_Control_vs_Group1_gene.rnk
+326,GSE74000,GSM1907897,GSM1907900,GPL570,CEL,hSKP-HPC,acetaminophen,0,0,0,Rani Powers,Input/rnk_files/GSE74000_DEG_Expt3_Control_vs_Group1_gene.rnk
+327,GSE76293,GSM1979262,GSM1979261,GPL570,CEL,Missing,PI3K inhibitor,0,0,0,Rani Powers,Input/rnk_files/GSE76293_DEG_Expt1_Control_vs_Group1_gene.rnk
+328,GSE76293,GSM1979263,GSM1979261,GPL570,CEL,Missing,GM-CSF,0,0,0,Rani Powers,Input/rnk_files/GSE76293_DEG_Expt1_Control_vs_Group2_gene.rnk
+329,GSE7807,GSM189451,GSM189447,GPL570,CEL,Missing,leukotriene D4,0,0,0,Rani Powers,Input/rnk_files/GSE7807_DEG_Expt1_Control_vs_Group1_gene.rnk
+330,GSE79761,GSM2102089,GSM2102086,GPL570,CEL,Missing,estradiol,0,0,0,Rani Powers,Input/rnk_files/GSE79761_DEG_Expt1_Control_vs_Group1_gene.rnk
+331,GSE79761,GSM2102092,GSM2102086,GPL570,CEL,Missing,dexamethasone,0,0,0,Rani Powers,Input/rnk_files/GSE79761_DEG_Expt1_Control_vs_Group2_gene.rnk
+332,GSE79761,GSM2102095,GSM2102086,GPL570,CEL,Missing,estradiol, dexamethasone,0,0,0,Rani Powers,Input/rnk_files/GSE79761_DEG_Expt1_Control_vs_Group3_gene.rnk
+333,GSE8588,GSM213199,GSM213193,GPL570,CEL,Missing,2-OH-BDE47,0,0,0,Rani Powers,Input/rnk_files/GSE8588_DEG_Expt1_Control_vs_Group1_gene.rnk
+334,GSE8588,GSM213204,GSM213193,GPL570,CEL,Missing,2-OH-BDE85,0,0,0,Rani Powers,Input/rnk_files/GSE8588_DEG_Expt1_Control_vs_Group2_gene.rnk
+335,GSE8597,GSM213326,GSM213330,GPL570,CEL,Missing,E2,0,0,0,Rani Powers,Input/rnk_files/GSE8597_DEG_Expt1_Control_vs_Group1_gene.rnk
+336,GSE8658,GSM214751,GSM214750,GPL570,CEL,Missing,rosiglitazone,0,0,0,Rani Powers,Input/rnk_files/GSE8658_DEG_Expt1_Control_vs_Group1_gene.rnk
+337,GSE9988,GSM252443,GSM252476,GPL570,CEL,Missing,LPS,0,0,0,Rani Powers,Input/rnk_files/GSE9988_DEG_Expt1_Control_vs_Group1_gene.rnk
+338,GSE10281,GSM259581,GSM259599,GPL570,CEL,Missing,letrozole,0,0,0,Rani Powers,Input/rnk_files/GSE10281_DEG_Expt1_Control_vs_Group1_gene.rnk
+339,GSE10299,GSM260252,GSM260249,GPL570,CEL,Missing,SQ20B,0,0,0,Rani Powers,Input/rnk_files/GSE10299_DEG_Expt1_Control_vs_Group1_gene.rnk
+340,GSE10299,GSM260255,GSM260249,GPL570,CEL,Missing,SQ20B,0,0,0,Rani Powers,Input/rnk_files/GSE10299_DEG_Expt1_Control_vs_Group2_gene.rnk
+341,GSE10410,GSM263016,GSM263012,GPL570,CEL,Missing,myclobutanil,0,0,0,Rani Powers,Input/rnk_files/GSE10410_DEG_Expt1_Control_vs_Group1_gene.rnk
+342,GSE10410,GSM263052,GSM263012,GPL570,CEL,Missing,triadimefon,0,0,0,Rani Powers,Input/rnk_files/GSE10410_DEG_Expt1_Control_vs_Group2_gene.rnk
+343,GSE10592,GSM267027,GSM267014,GPL570,CEL,Missing,azithromycin,0,0,0,Rani Powers,Input/rnk_files/GSE10592_DEG_Expt1_Control_vs_Group1_gene.rnk
+344,GSE10592,GSM267027,GSM267014,GPL570,CEL,Missing,azithromycin,0,0,0,Rani Powers,Input/rnk_files/GSE10592_DEG_Expt2_Control_vs_Group1_gene.rnk
+345,GSE11142,GSM281192,GSM281190,GPL570,CEL,Missing,nicotine,0,0,0,Rani Powers,Input/rnk_files/GSE11142_DEG_Expt1_Control_vs_Group1_gene.rnk
+346,GSE11285,GSM284901,GSM284892,GPL570,CEL,Missing,enzastaurin,0,0,0,Rani Powers,Input/rnk_files/GSE11285_DEG_Expt1_Control_vs_Group1_gene.rnk
+347,GSE11285,GSM284901,GSM284892,GPL570,CEL,Missing,enzastaurin,0,0,0,Rani Powers,Input/rnk_files/GSE11285_DEG_Expt2_Control_vs_Group1_gene.rnk
+348,GSE11285,GSM284901,GSM284892,GPL570,CEL,Missing,enzastaurin,0,0,0,Rani Powers,Input/rnk_files/GSE11285_DEG_Expt3_Control_vs_Group1_gene.rnk
+349,GSE11336,GSM286229,GSM286232,GPL570,CEL,Missing,dexametasone,0,0,0,Rani Powers,Input/rnk_files/GSE11336_DEG_Expt1_Control_vs_Group1_gene.rnk
+350,GSE11336,GSM286229,GSM286232,GPL570,CEL,Missing,dexametasone,0,0,0,Rani Powers,Input/rnk_files/GSE11336_DEG_Expt2_Control_vs_Group1_gene.rnk
+351,GSE13818,GSM347647,GSM347642,GPL570,CEL,Missing,HIF-2a inhibitors,0,0,0,Rani Powers,Input/rnk_files/GSE13818_DEG_Expt1_Control_vs_Group1_gene.rnk
+352,GSE13818,GSM347649,GSM347642,GPL570,CEL,Missing,HIF-2a inhibitors,0,0,0,Rani Powers,Input/rnk_files/GSE13818_DEG_Expt1_Control_vs_Group2_gene.rnk
+353,GSE13818,GSM347650,GSM347642,GPL570,CEL,Missing,HIF-2a inhibitors,0,0,0,Rani Powers,Input/rnk_files/GSE13818_DEG_Expt1_Control_vs_Group3_gene.rnk
+354,GSE13818,GSM347652,GSM347642,GPL570,CEL,Missing,HIF-2a inhibitors,0,0,0,Rani Powers,Input/rnk_files/GSE13818_DEG_Expt1_Control_vs_Group4_gene.rnk
+355,GSE14103,GSM353430,GSM353426,GPL570,CEL,Missing,nocodazole,0,0,0,Rani Powers,Input/rnk_files/GSE14103_DEG_Expt1_Control_vs_Group1_gene.rnk
+356,GSE14385,GSM359560,GSM359559,GPL570,CEL,Missing,5-aza,0,0,0,Rani Powers,Input/rnk_files/GSE14385_DEG_Expt1_Control_vs_Group1_gene.rnk
+357,GSE17785,GSM443981,GSM443978,GPL570,CEL,Missing,GDC-0941,0,0,0,Rani Powers,Input/rnk_files/GSE17785_DEG_Expt1_Control_vs_Group1_gene.rnk
+358,GSE17785,GSM443981,GSM443978,GPL570,CEL,Missing,GDC-0941,0,0,0,Rani Powers,Input/rnk_files/GSE17785_DEG_Expt2_Control_vs_Group1_gene.rnk
+359,GSE19519,GSM486735,GSM486736,GPL570,CEL,Missing,tunicamycin,0,0,0,Rani Powers,Input/rnk_files/GSE19519_DEG_Expt1_Control_vs_Group1_gene.rnk
+360,GSE22152,GSM550954,GSM550942,GPL570,CEL,Missing,dexamethasone,0,0,0,Rani Powers,Input/rnk_files/GSE22152_DEG_Expt1_Control_vs_Group1_gene.rnk
+361,GSE22152,GSM550954,GSM550942,GPL570,CEL,Missing,dexamethasone,0,0,0,Rani Powers,Input/rnk_files/GSE22152_DEG_Expt2_Control_vs_Group1_gene.rnk
+362,GSE26114,GSM641486,GSM641483,GPL570,CEL,Missing,ABT-869,0,0,0,Rani Powers,Input/rnk_files/GSE26114_DEG_Expt1_Control_vs_Group1_gene.rnk
+363,GSE26114,GSM641489,GSM641483,GPL570,CEL,Missing,SAHA,0,0,0,Rani Powers,Input/rnk_files/GSE26114_DEG_Expt1_Control_vs_Group2_gene.rnk
+364,GSE26114,GSM641492,GSM641483,GPL570,CEL,Missing,ABT-869, SAHA,0,0,0,Rani Powers,Input/rnk_files/GSE26114_DEG_Expt1_Control_vs_Group3_gene.rnk
+365,GSE26114,GSM641486,GSM641483,GPL570,CEL,Missing,ABT-869,0,0,0,Rani Powers,Input/rnk_files/GSE26114_DEG_Expt2_Control_vs_Group1_gene.rnk
+366,GSE26114,GSM641489,GSM641483,GPL570,CEL,Missing,SAHA,0,0,0,Rani Powers,Input/rnk_files/GSE26114_DEG_Expt2_Control_vs_Group2_gene.rnk
+367,GSE26114,GSM641492,GSM641483,GPL570,CEL,Missing,ABT-869, SAHA,0,0,0,Rani Powers,Input/rnk_files/GSE26114_DEG_Expt2_Control_vs_Group3_gene.rnk
+368,GSE29868,GSM739834,GSM739831,GPL570,CEL,Missing,atorvastatin,0,0,0,Rani Powers,Input/rnk_files/GSE29868_DEG_Expt1_Control_vs_Group1_gene.rnk
+369,GSE29868,GSM739834,GSM739831,GPL570,CEL,Missing,atorvastatin,0,0,0,Rani Powers,Input/rnk_files/GSE29868_DEG_Expt2_Control_vs_Group1_gene.rnk
+370,GSE29868,GSM739834,GSM739831,GPL570,CEL,Missing,atorvastatin,0,0,0,Rani Powers,Input/rnk_files/GSE29868_DEG_Expt3_Control_vs_Group1_gene.rnk
+371,GSE29868,GSM739834,GSM739831,GPL570,CEL,Missing,atorvastatin,0,0,0,Rani Powers,Input/rnk_files/GSE29868_DEG_Expt4_Control_vs_Group1_gene.rnk
+372,GSE29868,GSM739834,GSM739831,GPL570,CEL,Missing,atorvastatin,0,0,0,Rani Powers,Input/rnk_files/GSE29868_DEG_Expt5_Control_vs_Group1_gene.rnk
+373,GSE30188,GSM747359,GSM747347,GPL570,CEL,Missing,CCG-1423,0,0,0,Rani Powers,Input/rnk_files/GSE30188_DEG_Expt1_Control_vs_Group1_gene.rnk
+374,GSE30188,GSM747364,GSM747347,GPL570,CEL,Missing,DRB,0,0,0,Rani Powers,Input/rnk_files/GSE30188_DEG_Expt1_Control_vs_Group2_gene.rnk
+375,GSE30531,GSM757128,GSM757113,GPL570,CEL,Missing,MLN4924,0,0,0,Rani Powers,Input/rnk_files/GSE30531_DEG_Expt1_Control_vs_Group1_gene.rnk
+376,GSE30531,GSM757128,GSM757113,GPL570,CEL,Missing,MLN4924,0,0,0,Rani Powers,Input/rnk_files/GSE30531_DEG_Expt2_Control_vs_Group1_gene.rnk
+377,GSE30531,GSM757128,GSM757113,GPL570,CEL,Missing,MLN4924,0,0,0,Rani Powers,Input/rnk_files/GSE30531_DEG_Expt3_Control_vs_Group1_gene.rnk
+378,GSE30531,GSM757128,GSM757113,GPL570,CEL,Missing,MLN4924,0,0,0,Rani Powers,Input/rnk_files/GSE30531_DEG_Expt4_Control_vs_Group1_gene.rnk
+379,GSE30531,GSM757128,GSM757113,GPL570,CEL,Missing,MLN4924,0,0,0,Rani Powers,Input/rnk_files/GSE30531_DEG_Expt5_Control_vs_Group1_gene.rnk
+380,GSE32547,GSM811217,GSM811216,GPL570,CEL,Missing,pitavastatin,0,0,0,Rani Powers,Input/rnk_files/GSE32547_DEG_Expt1_Control_vs_Group1_gene.rnk
+381,GSE33643,GSM832051,GSM832047,GPL570,CEL,Missing,Vehicle,0,0,0,Rani Powers,Input/rnk_files/GSE33643_DEG_Expt1_Control_vs_Group1_gene.rnk
+382,GSE33643,GSM832055,GSM832047,GPL570,CEL,Missing,BKM120,0,0,0,Rani Powers,Input/rnk_files/GSE33643_DEG_Expt1_Control_vs_Group2_gene.rnk
+383,GSE33643,GSM832059,GSM832047,GPL570,CEL,Missing,BKM120,0,0,0,Rani Powers,Input/rnk_files/GSE33643_DEG_Expt1_Control_vs_Group3_gene.rnk
+384,GSE33643,GSM832063,GSM832047,GPL570,CEL,Missing,BEZ235,0,0,0,Rani Powers,Input/rnk_files/GSE33643_DEG_Expt1_Control_vs_Group4_gene.rnk
+385,GSE33643,GSM832067,GSM832047,GPL570,CEL,Missing,BEZ235,0,0,0,Rani Powers,Input/rnk_files/GSE33643_DEG_Expt1_Control_vs_Group5_gene.rnk
+386,GSE33643,GSM832071,GSM832047,GPL570,CEL,Missing,BEZ235,0,0,0,Rani Powers,Input/rnk_files/GSE33643_DEG_Expt1_Control_vs_Group6_gene.rnk
+387,GSE33643,GSM832075,GSM832047,GPL570,CEL,Missing,GCD0941,0,0,0,Rani Powers,Input/rnk_files/GSE33643_DEG_Expt1_Control_vs_Group7_gene.rnk
+388,GSE33643,GSM832079,GSM832047,GPL570,CEL,Missing,GCD0941,0,0,0,Rani Powers,Input/rnk_files/GSE33643_DEG_Expt1_Control_vs_Group8_gene.rnk
+389,GSE33643,GSM832083,GSM832047,GPL570,CEL,Missing,GCD0941,0,0,0,Rani Powers,Input/rnk_files/GSE33643_DEG_Expt1_Control_vs_Group9_gene.rnk
+390,GSE41315,GSM1014553,GSM1014550,GPL570,CEL,Missing, EI1,0,0,0,Rani Powers,Input/rnk_files/GSE41315_DEG_Expt1_Control_vs_Group1_gene.rnk
+391,GSE41315,GSM1014553,GSM1014550,GPL570,CEL,Missing, EI1,0,0,0,Rani Powers,Input/rnk_files/GSE41315_DEG_Expt2_Control_vs_Group1_gene.rnk
+392,GSE41315,GSM1014553,GSM1014550,GPL570,CEL,Missing, EI1,0,0,0,Rani Powers,Input/rnk_files/GSE41315_DEG_Expt3_Control_vs_Group1_gene.rnk
+393,GSE41315,GSM1014553,GSM1014550,GPL570,CEL,Missing, EI1,0,0,0,Rani Powers,Input/rnk_files/GSE41315_DEG_Expt4_Control_vs_Group1_gene.rnk
+394,GSE42762,GSM1049516,GSM1049515,GPL570,CEL,Missing,PI-103,0,0,0,Rani Powers,Input/rnk_files/GSE42762_DEG_Expt1_Control_vs_Group1_gene.rnk
+395,GSE44946,GSM1094292,GSM1094286,GPL570,CEL,Missing,BRD7552,0,0,0,Rani Powers,Input/rnk_files/GSE44946_DEG_Expt1_Control_vs_Group1_gene.rnk
+396,GSE46819,GSM1138805,GSM1138806,GPL570,CEL,Missing,BV6,0,0,0,Rani Powers,Input/rnk_files/GSE46819_DEG_Expt1_Control_vs_Group1_gene.rnk
+397,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt1_Control_vs_Group1_gene.rnk
+398,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt1_Control_vs_Group2_gene.rnk
+399,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt2_Control_vs_Group1_gene.rnk
+400,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt2_Control_vs_Group2_gene.rnk
+401,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt3_Control_vs_Group1_gene.rnk
+402,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt3_Control_vs_Group2_gene.rnk
+403,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt4_Control_vs_Group1_gene.rnk
+404,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt4_Control_vs_Group2_gene.rnk
+405,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt5_Control_vs_Group1_gene.rnk
+406,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt5_Control_vs_Group2_gene.rnk
+407,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt6_Control_vs_Group1_gene.rnk
+408,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt6_Control_vs_Group2_gene.rnk
+409,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt7_Control_vs_Group1_gene.rnk
+410,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt7_Control_vs_Group2_gene.rnk
+411,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt8_Control_vs_Group1_gene.rnk
+412,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt8_Control_vs_Group2_gene.rnk
+413,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt9_Control_vs_Group1_gene.rnk
+414,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt9_Control_vs_Group2_gene.rnk
+415,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt10_Control_vs_Group1_gene.rnk
+416,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt10_Control_vs_Group2_gene.rnk
+417,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt11_Control_vs_Group1_gene.rnk
+418,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt11_Control_vs_Group2_gene.rnk
+419,GSE49284,GSM1196666,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt12_Control_vs_Group1_gene.rnk
+420,GSE49284,GSM1196669,GSM1196663,GPL570,CEL,Missing,EPZ6438,0,0,0,Rani Powers,Input/rnk_files/GSE49284_DEG_Expt12_Control_vs_Group2_gene.rnk
+421,GSE51212,GSM1240548,GSM1240545,GPL570,CEL,Missing,erlotinib,0,0,0,Rani Powers,Input/rnk_files/GSE51212_DEG_Expt1_Control_vs_Group1_gene.rnk
+422,GSE51212,GSM1240551,GSM1240545,GPL570,CEL,Missing,AZD6244,0,0,0,Rani Powers,Input/rnk_files/GSE51212_DEG_Expt1_Control_vs_Group2_gene.rnk
+423,GSE51212,GSM1240554,GSM1240545,GPL570,CEL,Missing,BEZ235,0,0,0,Rani Powers,Input/rnk_files/GSE51212_DEG_Expt1_Control_vs_Group3_gene.rnk
+424,GSE62947,GSM1536993,GSM1536990,GPL570,CEL,Missing, SRPIN803,0,0,0,Rani Powers,Input/rnk_files/GSE62947_DEG_Expt1_Control_vs_Group1_gene.rnk
+425,GSE64337,GSM1568742,GSM1568739,GPL570,CEL,Missing,TVB-3166,0,0,0,Rani Powers,Input/rnk_files/GSE64337_DEG_Expt1_Control_vs_Group1_gene.rnk
+426,GSE64337,GSM1568745,GSM1568739,GPL570,CEL,Missing,TVB-3166,0,0,0,Rani Powers,Input/rnk_files/GSE64337_DEG_Expt1_Control_vs_Group2_gene.rnk
+427,GSE64536,GSM1573703,GSM1573697,GPL570,CEL,Missing,tamoxifen,0,0,0,Rani Powers,Input/rnk_files/GSE64536_DEG_Expt1_Control_vs_Group1_gene.rnk
+428,GSE64536,GSM1573703,GSM1573697,GPL570,CEL,Missing,tamoxifen,0,0,0,Rani Powers,Input/rnk_files/GSE64536_DEG_Expt2_Control_vs_Group1_gene.rnk
+429,GSE65012,GSM1585806,GSM1585803,GPL570,CEL,Missing,cortistatin A,0,0,0,Rani Powers,Input/rnk_files/GSE65012_DEG_Expt1_Control_vs_Group1_gene.rnk
+430,GSE65014,GSM1585878,GSM1585875,GPL570,CEL,Missing,cortistatin A,0,0,0,Rani Powers,Input/rnk_files/GSE65014_DEG_Expt1_Control_vs_Group1_gene.rnk
+431,GSE65015,GSM1585884,GSM1585881,GPL570,CEL,Missing,cortistatin A,0,0,0,Rani Powers,Input/rnk_files/GSE65015_DEG_Expt1_Control_vs_Group1_gene.rnk
+432,GSE65019,GSM1585927,GSM1585924,GPL570,CEL,Missing,cortistatin A,0,0,0,Rani Powers,Input/rnk_files/GSE65019_DEG_Expt1_Control_vs_Group1_gene.rnk
+433,GSE67051,GSM1637496,GSM1637493,GPL570,CEL,Missing,erlotinib,0,0,0,Rani Powers,Input/rnk_files/GSE67051_DEG_Expt1_Control_vs_Group1_gene.rnk
+434,GSE67051,GSM1637496,GSM1637493,GPL570,CEL,Missing,erlotinib,0,0,0,Rani Powers,Input/rnk_files/GSE67051_DEG_Expt2_Control_vs_Group1_gene.rnk
+435,GSE67338,GSM1645022,GSM1645019,GPL570,CEL,Missing,terfilunomide,0,0,0,Rani Powers,Input/rnk_files/GSE67338_DEG_Expt1_Control_vs_Group1_gene.rnk
+436,GSE67920,GSM1658540,GSM1658537,GPL570,CEL,Missing,PFI-3,0,0,0,Rani Powers,Input/rnk_files/GSE67920_DEG_Expt1_Control_vs_Group1_gene.rnk
+437,GSE76675,GSM2033405,GSM2033402,GPL570,CEL,Missing,AZD3965,0,0,0,Rani Powers,Input/rnk_files/GSE76675_DEG_Expt1_Control_vs_Group1_gene.rnk
+438,GSE76675,GSM2033405,GSM2033402,GPL570,CEL,Missing,AZD3965,0,0,0,Rani Powers,Input/rnk_files/GSE76675_DEG_Expt2_Control_vs_Group1_gene.rnk
+439,GSE76675,GSM2033405,GSM2033402,GPL570,CEL,Missing,AZD3965,0,0,0,Rani Powers,Input/rnk_files/GSE76675_DEG_Expt3_Control_vs_Group1_gene.rnk
+440,GSE78704,GSM2072984,GSM2072981,GPL570,CEL,Missing,JQ1,0,0,0,Rani Powers,Input/rnk_files/GSE78704_DEG_Expt1_Control_vs_Group1_gene.rnk
+441,GSE83120,GSM2193260,GSM2193254,GPL570,CEL,Missing,erlotinib,0,0,0,Rani Powers,Input/rnk_files/GSE83120_DEG_Expt1_Control_vs_Group1_gene.rnk
+442,GSE83491,GSM2204340,GSM2204339,GPL570,CEL,Missing,AZD3965,0,0,0,Rani Powers,Input/rnk_files/GSE83491_DEG_Expt1_Control_vs_Group1_gene.rnk
+443,GSE83491,GSM2204340,GSM2204339,GPL570,CEL,Missing,AZD3965,0,0,0,Rani Powers,Input/rnk_files/GSE83491_DEG_Expt2_Control_vs_Group1_gene.rnk
