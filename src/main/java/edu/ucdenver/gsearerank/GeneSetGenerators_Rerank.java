@@ -43,7 +43,13 @@ class GeneSetGenerators_Rerank {
         for (int g = 0; g < numRndGeneSets; g++) {
             int[] randomrowindices;
             // IMP random from 0 to nrows not nmembers. duh!.
-            randomrowindices = XMath_Rerank.randomlySampleWithoutReplacement(nmembers, rl.getSize(), rst, numKey_dist);
+
+            Integer[] genesetInds = new Integer[nmembers];
+            for (int i = 0; i < nmembers; i ++) {
+                genesetInds[i] = rl.getRank(gset.getMember(i));
+            }
+
+            randomrowindices = XMath_Rerank.randomlySampleWithoutReplacement(nmembers, rl.getSize(), rst, numKey_dist, genesetInds);
 
             if (randomrowindices.length != nmembers) {
                 throw new IllegalStateException("random indices generated: " + randomrowindices.length + " not equal to # members: " + nmembers);

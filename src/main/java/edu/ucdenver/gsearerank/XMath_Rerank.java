@@ -10,11 +10,11 @@ import java.util.Random;
 
 class XMath_Rerank {
 
-    static int[] randomlySampleWithoutReplacement(final int numRndNeeded, final int highestrandomnumExclusive, final RandomSeedGenerator rsgen, HashMap<Integer, Integer[]> dist) {
-        return randomlySampleWithoutReplacement(numRndNeeded, highestrandomnumExclusive, rsgen.getRandom(), dist);
+    static int[] randomlySampleWithoutReplacement(final int numRndNeeded, final int highestrandomnumExclusive, final RandomSeedGenerator rsgen, HashMap<Integer, Integer[]> dist, Integer[] genesetInds) {
+        return randomlySampleWithoutReplacement(numRndNeeded, highestrandomnumExclusive, rsgen.getRandom(), dist, genesetInds);
     }
 
-    private static int[] randomlySampleWithoutReplacement(final int numRndNeeded, final int maxRndNumExclusive, final Random rnd, HashMap<Integer, Integer[]> dist) {
+    private static int[] randomlySampleWithoutReplacement(final int numRndNeeded, final int maxRndNumExclusive, final Random rnd, HashMap<Integer, Integer[]> dist, Integer[] genesetInds) {
 
         if (maxRndNumExclusive == numRndNeeded) { // no random picking needed, we have exactly as many as asked for
             return XMath.toIndices(maxRndNumExclusive, false);
@@ -27,12 +27,14 @@ class XMath_Rerank {
         List<Integer> seen = new ArrayList<>(numRndNeeded);
         int[] inds = new int[numRndNeeded];
         int cnt = 0;
+        int gsInd;
         int min;
         int max;
 
-        for (int i = 0; i < numRndNeeded;) {
-            min = dist.get(cnt)[0];
-            max = dist.get(cnt)[1];
+        while(cnt < numRndNeeded) {
+            gsInd = genesetInds[cnt];
+            min = dist.get(gsInd)[0];
+            max = dist.get(gsInd)[1];
             int r;
             if (max == min) {
                 r = max;
