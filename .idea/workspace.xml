@@ -6,24 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c161736-aff2-4401-b984-831cb4ef7845" name="Default" comment="Prepare for code review">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Test/Input/test2.rnk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/GSEA_Rerank_jar/GSEA_Rerank.jar" afterPath="$PROJECT_DIR$/artifacts/GSEA_Rerank_jar/GSEA_Rerank.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/GSEA_Rerank_war_exploded/WEB-INF/classes/edu/ucdenver/gsearerank/GseaPreranked_Rerank.class" afterPath="$PROJECT_DIR$/artifacts/GSEA_Rerank_war_exploded/WEB-INF/classes/edu/ucdenver/gsearerank/GseaPreranked_Rerank.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/GSEA_Rerank_war_exploded/WEB-INF/classes/edu/ucdenver/gsearerank/WebHelper.class" afterPath="$PROJECT_DIR$/artifacts/GSEA_Rerank_war_exploded/WEB-INF/classes/edu/ucdenver/gsearerank/WebHelper.class" />
+    <list default="true" id="1c161736-aff2-4401-b984-831cb4ef7845" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/ucdenver/gsearerank/GseaPreranked_Rerank.class" afterPath="$PROJECT_DIR$/target/classes/edu/ucdenver/gsearerank/GseaPreranked_Rerank.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/ucdenver/gsearerank/WebHelper.class" afterPath="$PROJECT_DIR$/target/classes/edu/ucdenver/gsearerank/WebHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/GSEA_Rerank_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/GSEA_Rerank_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gsea_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gsea_3_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Test/Input/test_anno.csv" afterPath="$PROJECT_DIR$/Data/Test/Input/test_anno.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/gsearerank_script.sh" afterPath="$PROJECT_DIR$/Scripts/gsearerank_script.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/GSEA_Rerank_war_exploded/Results.jsp" afterPath="$PROJECT_DIR$/artifacts/GSEA_Rerank_war_exploded/Results.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/GSEA_Rerank_war_exploded/SubmissionForm.jsp" afterPath="$PROJECT_DIR$/artifacts/GSEA_Rerank_war_exploded/SubmissionForm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/GseaPreranked_Rerank.java" afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/GseaPreranked_Rerank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/WebHelper.java" afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/WebHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Results.jsp" afterPath="$PROJECT_DIR$/web/Results.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/SubmissionForm.jsp" afterPath="$PROJECT_DIR$/web/SubmissionForm.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="WebHelper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/WebHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2175">
-              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="138">
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3249#3250#0" expanded="true" />
@@ -92,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XMath_Rerank.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XMath_Rerank.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/XMath_Rerank.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+              <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -756,18 +742,26 @@
       <workItem from="1504731543075" duration="1187000" />
       <workItem from="1506374539391" duration="32000" />
       <workItem from="1506374729643" duration="22000" />
-      <workItem from="1507525093695" duration="2514000" />
+      <workItem from="1507525093695" duration="2611000" />
     </task>
+    <task id="LOCAL-00001" summary="Prepare for code review">
+      <created>1507527633417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507527633417</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34997000" />
+    <option name="totallyTimeSpent" value="35094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1622" height="922" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.5026144" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -780,12 +774,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39888424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.49738562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.49738562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45327756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2875817" sideWeight="0.49187934" order="0" side_tool="false" content_ui="combo" />
@@ -834,6 +828,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1222,18 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/WebHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2175">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3249#3250#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/gsearerank_script.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1295,8 +1303,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/XMath_Rerank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/ucdenver/gsearerank/WebHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
+            <element signature="e#3279#3280#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
